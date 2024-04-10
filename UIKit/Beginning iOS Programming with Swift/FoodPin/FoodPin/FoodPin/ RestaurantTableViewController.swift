@@ -27,6 +27,21 @@ class RestaurantTableViewController: UITableViewController {
         "graham", "waffleandwolf", "fiveleaves", "cafelore",
         "confessional", "barrafina", "donostia", "royaloak", "cask"
     ]
+    
+    var restaurantLocations = [
+        "Hong Kong", "Hong Kong", "Hong Kong", "Hong Kong", "Hong Kong", "Hong Kong", "Hong Kong",
+        "Sydney", "Sydney", "Sydney",
+        "New York", "New York", "New York", "New York", "New York", "New York", "New York",
+        "London", "London", "London", "London"
+    ]
+                               
+    var restaurantTypes = [
+        "Coffee & Tea Shop", "Cafe", "Tea House", "Austrian / Causual Drink", "French",
+        "Bakery", "Bakery", "Chocolate", "Cafe", "American / Seafood", "American",
+        "American", "Breakfast & Brunch", "Coffee & Tea", "Coffee & Tea",
+        "Latin American", "Spanish", "Spanish", "Spanish", "British", "Thai"
+    ]
+    
     lazy var dataSourse = configureDataSource()
     
     override func viewDidLoad() {
@@ -38,6 +53,7 @@ class RestaurantTableViewController: UITableViewController {
         snapshot.appendItems(restaurantNames, toSection: .all)
         dataSourse.apply(snapshot)
         
+        
     }
     
     // MARK: - Table view data source
@@ -47,10 +63,12 @@ class RestaurantTableViewController: UITableViewController {
         
         let dataSource = UITableViewDiffableDataSource<Section, String>(tableView: tableView) { tableView, indexPath, restaurantName in
             
-            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+            let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! RestaurantTableViewCell
             
-            cell.textLabel?.text = restaurantName
-            cell.imageView?.image = UIImage(named: self.restaurantImages[indexPath.row])
+            cell.nameLabel?.text = restaurantName
+            cell.locationLabel.text = self.restaurantLocations[indexPath.row]
+            cell.typeLabel.text = self.restaurantTypes[indexPath.row]
+            cell.thumbnailImageView?.image = UIImage(named: self.restaurantImages[indexPath.row])
             return cell
             
         }
