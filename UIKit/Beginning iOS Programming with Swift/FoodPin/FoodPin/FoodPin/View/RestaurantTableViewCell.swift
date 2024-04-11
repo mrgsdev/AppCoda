@@ -24,6 +24,7 @@ class RestaurantTableViewCell: UITableViewCell {
             thumbnailImageView.clipsToBounds = true
         }
     }
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
