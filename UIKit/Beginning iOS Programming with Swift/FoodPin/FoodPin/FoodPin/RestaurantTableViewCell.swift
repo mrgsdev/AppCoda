@@ -8,7 +8,8 @@
 import UIKit
 
 class RestaurantTableViewCell: UITableViewCell {
-
+     
+    @IBOutlet weak var favouriteImage: UIImageView!
     @IBOutlet var nameLabel: UILabel! {
         didSet {
             nameLabel.numberOfLines = 0
@@ -26,7 +27,7 @@ class RestaurantTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-//        thumbnailImageView.layer.masksToBounds
+        self.tintColor = .systemYellow
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
