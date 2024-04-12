@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ed6-AN-3Z0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dno-P9-Uvr">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Restaurant Table View Controller-->
+        <!--FoodPin-->
         <scene sceneID="VhH-F8-cIp">
             <objects>
                 <tableViewController id="Ed6-AN-3Z0" customClass="RestaurantTableViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
@@ -80,6 +81,7 @@
                                     <outlet property="nameLabel" destination="i2K-Lg-sJN" id="A2j-i6-frt"/>
                                     <outlet property="thumbnailImageView" destination="z3b-GC-8ZV" id="WBd-cs-xZX"/>
                                     <outlet property="typeLabel" destination="FBy-BD-UqK" id="fhZ-7E-HIY"/>
+                                    <segue destination="HXd-Ru-0Xs" kind="show" identifier="showRestaurantDetail" id="0vP-5b-Bir"/>
                                 </connections>
                             </tableViewCell>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="favoritecell" id="lSF-MQ-h4h" customClass="RestaurantTableViewCell" customModule="FoodPin" customModuleProvider="target">
@@ -137,6 +139,7 @@
                                     <outlet property="nameLabel" destination="5Av-xG-nTJ" id="9UX-25-7W8"/>
                                     <outlet property="thumbnailImageView" destination="MuQ-Vf-MeN" id="0dI-Ro-Z0K"/>
                                     <outlet property="typeLabel" destination="YOw-Bs-8u3" id="4dK-c4-De5"/>
+                                    <segue destination="HXd-Ru-0Xs" kind="show" identifier="showRestaurantDetail" id="Ftu-xE-tvW"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -145,24 +148,108 @@
                             <outlet property="delegate" destination="Ed6-AN-3Z0" id="ghd-R3-zLG"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" title="FoodPin" id="Hj2-eC-oxW"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ih8-9C-cdJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086.2595419847328" y="-52.112676056338032"/>
+        </scene>
+        <!--Restaurant Detail View Controller-->
+        <scene sceneID="iWA-qV-2Nv">
+            <objects>
+                <viewController id="HXd-Ru-0Xs" customClass="RestaurantDetailViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="o5U-rW-R96">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bourkestreetbakery" translatesAutoresizingMaskIntoConstraints="NO" id="HOM-Ej-amz">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="qug-2r-VhR">
+                                <rect key="frame" x="30" y="123" width="333" height="84.333333333333314"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pty-iz-LuX">
+                                        <rect key="frame" x="138.33333333333334" y="0.0" width="56.666666666666657" height="26.333333333333332"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                        <color key="textColor" white="0.95493197279999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WoB-oK-S61">
+                                        <rect key="frame" x="129" y="34.333333333333343" width="75.333333333333314" height="24"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
+                                        <color key="textColor" white="0.95493197279999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qB1-3g-red">
+                                        <rect key="frame" x="149" y="66.333333333333343" width="35.333333333333343" height="18"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                        <color key="textColor" white="0.95493197279999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="AMF-ue-OWu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HOM-Ej-amz" firstAttribute="top" secondItem="o5U-rW-R96" secondAttribute="top" id="1E1-sl-B7t"/>
+                            <constraint firstItem="qug-2r-VhR" firstAttribute="top" secondItem="AMF-ue-OWu" secondAttribute="top" constant="20" id="FQa-3C-waS"/>
+                            <constraint firstAttribute="bottom" secondItem="HOM-Ej-amz" secondAttribute="bottom" id="Ukb-oC-6qT"/>
+                            <constraint firstItem="HOM-Ej-amz" firstAttribute="trailing" secondItem="AMF-ue-OWu" secondAttribute="trailing" id="Vlx-Rt-qQ1"/>
+                            <constraint firstItem="HOM-Ej-amz" firstAttribute="leading" secondItem="AMF-ue-OWu" secondAttribute="leading" id="dnA-WP-OzM"/>
+                            <constraint firstItem="AMF-ue-OWu" firstAttribute="trailing" secondItem="qug-2r-VhR" secondAttribute="trailing" constant="30" id="sgO-kF-eqO"/>
+                            <constraint firstItem="qug-2r-VhR" firstAttribute="leading" secondItem="AMF-ue-OWu" secondAttribute="leading" constant="30" id="zU2-Vt-J1K"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="RQr-I5-znJ"/>
+                    <connections>
+                        <outlet property="locationLabel" destination="WoB-oK-S61" id="olo-HC-sMh"/>
+                        <outlet property="nameLabel" destination="Pty-iz-LuX" id="vj2-EB-D9j"/>
+                        <outlet property="restaurantImageView" destination="HOM-Ej-amz" id="z1e-82-YUf"/>
+                        <outlet property="stackView" destination="qug-2r-VhR" id="IsF-cP-oUf"/>
+                        <outlet property="typeLabel" destination="qB1-3g-red" id="keu-gO-7z9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B7I-CC-2EF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1851" y="-52"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V47-fg-ahF">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dno-P9-Uvr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IMF-vu-dYX">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Ed6-AN-3Z0" kind="relationship" relationship="rootViewController" id="pZG-R0-xXa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uz7-FD-QwJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="159.54198473282443" y="-52.112676056338032"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Ftu-xE-tvW"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="barrafina" width="426.66665649414062" height="426.66665649414062"/>
+        <image name="bourkestreetbakery" width="426.66665649414062" height="426.66665649414062"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
         <image name="homei" width="426.66665649414062" height="426.66665649414062"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
