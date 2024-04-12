@@ -8,11 +8,12 @@
 import UIKit
 
 class RestaurantTableViewCell: UITableViewCell {
-     
+    
     @IBOutlet weak var favouriteImage: UIImageView!
     @IBOutlet var nameLabel: UILabel! {
         didSet {
             nameLabel.numberOfLines = 0
+           
         }
     }
     @IBOutlet var locationLabel: UILabel!
@@ -30,11 +31,11 @@ class RestaurantTableViewCell: UITableViewCell {
         // Initialization code
         self.tintColor = .systemYellow
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
+    
 }
