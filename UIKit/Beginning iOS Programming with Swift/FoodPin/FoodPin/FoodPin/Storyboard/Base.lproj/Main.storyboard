@@ -157,7 +157,7 @@
         <!--Navigation Controller-->
         <scene sceneID="V47-fg-ahF">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dno-P9-Uvr" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dno-P9-Uvr" customClass="NavigationController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IMF-vu-dYX">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -197,7 +197,7 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="DAH-d3-CHI">
                                             <rect key="frame" x="20" y="361" width="223" height="64"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMb-Mc-hul">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMb-Mc-hul">
                                                     <rect key="frame" x="0.0" y="0.0" width="71.666666666666671" height="33.666666666666664"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -213,9 +213,9 @@
                                             </subviews>
                                         </stackView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FL2-xP-QdV">
-                                            <rect key="frame" x="304" y="18" width="71" height="50"/>
+                                            <rect key="frame" x="325" y="18" width="50" height="50"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="71" id="rB6-3Z-FEq"/>
+                                                <constraint firstAttribute="width" constant="50" id="LE9-LG-WDn"/>
                                                 <constraint firstAttribute="height" constant="50" id="yIj-c3-ZxQ"/>
                                             </constraints>
                                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
