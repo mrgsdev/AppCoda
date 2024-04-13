@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -335,6 +336,33 @@
                                             <outlet property="column2TitleLabel" destination="qfP-nu-9cO" id="jUb-re-65f"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RestaurantDetailMapCell" id="Ktw-td-SWX" customClass="RestaurantDetailMapCell" customModule="FoodPin" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="608.66666793823242" width="393" height="255.33332824707031"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ktw-td-SWX" id="1aV-mj-eUe">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="255.33332824707031"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NvI-yk-C2d">
+                                                    <rect key="frame" x="15" y="15" width="363" height="200.33333333333334"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="uVm-Ik-TqX"/>
+                                                    </constraints>
+                                                    <standardMapConfiguration key="preferredConfiguration"/>
+                                                </mapView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="NvI-yk-C2d" firstAttribute="leading" secondItem="1aV-mj-eUe" secondAttribute="leading" constant="15" id="O74-qi-Jah"/>
+                                                <constraint firstAttribute="bottom" secondItem="NvI-yk-C2d" secondAttribute="bottom" constant="40" id="SqO-aZ-prk"/>
+                                                <constraint firstItem="NvI-yk-C2d" firstAttribute="top" secondItem="1aV-mj-eUe" secondAttribute="top" constant="15" id="YfK-vb-N8v"/>
+                                                <constraint firstAttribute="trailing" secondItem="NvI-yk-C2d" secondAttribute="trailing" constant="15" id="m3o-80-JVz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="mapView" destination="NvI-yk-C2d" id="X1u-ag-6Jw"/>
+                                            <segue destination="rhE-NN-hXf" kind="show" identifier="showMap" id="JW0-Ah-iiF"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </prototypes>
                             </tableView>
                         </subviews>
@@ -356,6 +384,37 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FdE-Ky-ksH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2740" y="-35"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="gM2-eO-afF">
+            <objects>
+                <viewController id="rhE-NN-hXf" customClass="MapViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oo8-2Y-NZL">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" rotateEnabled="NO" pitchEnabled="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAg-3u-Idc">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b5I-hJ-qym"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="BAg-3u-Idc" secondAttribute="bottom" id="3kD-eI-6jh"/>
+                            <constraint firstItem="BAg-3u-Idc" firstAttribute="leading" secondItem="b5I-hJ-qym" secondAttribute="leading" id="WcP-cS-Ebr"/>
+                            <constraint firstItem="BAg-3u-Idc" firstAttribute="trailing" secondItem="b5I-hJ-qym" secondAttribute="trailing" id="d9t-kl-sZH"/>
+                            <constraint firstItem="BAg-3u-Idc" firstAttribute="top" secondItem="oo8-2Y-NZL" secondAttribute="top" id="iP1-zm-A4l"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1m7-sx-Ui0"/>
+                    <connections>
+                        <outlet property="mapView" destination="BAg-3u-Idc" id="rqb-he-dV7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rQV-pq-Fei" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3654.1984732824426" y="-40.140845070422536"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
