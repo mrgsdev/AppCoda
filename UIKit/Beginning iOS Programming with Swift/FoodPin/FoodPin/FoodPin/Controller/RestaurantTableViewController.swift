@@ -99,6 +99,10 @@ class RestaurantTableViewController: UITableViewController {
         }
         return dataSource
     }
+    
+    @IBAction func unwindToHome(segue: UIStoryboardSegue) {
+        dismiss(animated: true, completion: nil)
+    }
 }
 
 // MARK: - UITableViewDelegate Protocol
