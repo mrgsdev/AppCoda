@@ -14,7 +14,7 @@ class MapViewController: UIViewController {
         super.viewDidLoad()
         mapView.delegate = self
         mapView.showsScale = true
-        mapView.showsCompass = true 
+        mapView.showsCompass = true
         configure()
         // Do any additional setup after loading the view.
     }

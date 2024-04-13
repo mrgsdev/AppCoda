@@ -27,5 +27,5 @@ class RestaurantDetailHeaderView: UIView {
         }
     }
     @IBOutlet var heartButton: UIButton!
-
+    @IBOutlet var ratingImageVieww: UIImageView!
 }

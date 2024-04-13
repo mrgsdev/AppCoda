@@ -26,6 +26,7 @@
 		42C94FE82BC97D4F005918EE /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94FE72BC97D4F005918EE /* NavigationController.swift */; };
 		42C950242BCA73FB005918EE /* RestaurantDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C950232BCA73FB005918EE /* RestaurantDetailMapCell.swift */; };
 		42C950262BCA7971005918EE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C950252BCA7971005918EE /* MapViewController.swift */; };
+		42C950282BCA8151005918EE /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C950272BCA8151005918EE /* ReviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		42C94FE72BC97D4F005918EE /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		42C950232BCA73FB005918EE /* RestaurantDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailMapCell.swift; sourceTree = "<group>"; };
 		42C950252BCA7971005918EE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		42C950272BCA8151005918EE /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				42C94FD12BC821D2005918EE /* RestaurantDiffableDataSource.swift */,
 				42C94FD52BC923EA005918EE /* RestaurantDetailViewController.swift */,
 				42C950252BCA7971005918EE /* MapViewController.swift */,
+				42C950272BCA8151005918EE /* ReviewViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 			files = (
 				42C94FC92BC7E4B8005918EE /* Restaurant.swift in Sources */,
 				42C94FE82BC97D4F005918EE /* NavigationController.swift in Sources */,
+				42C950282BCA8151005918EE /* ReviewViewController.swift in Sources */,
 				42C94FDD2BC92F91005918EE /* RestaurantDetailTextCell.swift in Sources */,
 				423EA6132BC6C7DA00E406C1 /* RestaurantTableViewCell.swift in Sources */,
 				423EA5FD2BC6B5D900E406C1 /* AppDelegate.swift in Sources */,
