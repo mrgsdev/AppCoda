@@ -21,7 +21,6 @@ class RestaurantDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         navigationController?.navigationBar.prefersLargeTitles = false
         
         // Solution to exercise #3
@@ -135,8 +134,10 @@ extension RestaurantDetailViewController: UITableViewDataSource, UITableViewDele
 
     // MARK: - Favorite Function
     
-    @IBAction func saveFavorite() {
-        
+    
+    
+    @IBAction func savingButton(){
+        print("1")
         restaurant.isFavorite.toggle()
                 
         configureFavoriteIcon()
