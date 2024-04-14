@@ -9,7 +9,7 @@ import UIKit
 
 class RestaurantTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var favouriteImage: UIImageView!
+    @IBOutlet weak var favoriteImageView: UIImageView!
     @IBOutlet var nameLabel: UILabel! {
         didSet {
             nameLabel.numberOfLines = 0

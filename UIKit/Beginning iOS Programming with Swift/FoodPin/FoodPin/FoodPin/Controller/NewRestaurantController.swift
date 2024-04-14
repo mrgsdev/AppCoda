@@ -6,8 +6,11 @@
 //
 
 import UIKit
-
+import SwiftData
 class  NewRestaurantController: UITableViewController {
+    var container: ModelContainer?
+    var restaurant: Restaurant?
+    var dataStore: RestaurantDataStore?
     @IBOutlet var nameTextField: RoundedTextField! {
         didSet {
             nameTextField.tag = 1
@@ -49,7 +52,9 @@ class  NewRestaurantController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        container = try? ModelContainer(for: Restaurant.self)
+        restaurant = Restaurant()
+        navigationController?.navigationBar.prefersLargeTitles = true
         // Hide keyboard
         let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
         tap.cancelsTouchesInView = false
@@ -97,13 +102,30 @@ class  NewRestaurantController: UITableViewController {
             
             return
         }
-        
+        if let restaurant = restaurant {
+            restaurant.name = nameTextField.text ?? ""
+            restaurant.type = typeTextField.text ?? ""
+            restaurant.location = addressTextField.text ?? ""
+            restaurant.phone = phoneTextField.text ?? ""
+            restaurant.summary = descriptionTextView.text
+            restaurant.isFavorite = false
+            
+            if let image = photoImageView.image {
+                restaurant.image = image
+            }
+            
+            container?.mainContext.insert(restaurant)
+            
+            print("Saving data to database...")
+        }
         print("Name: \(nameTextField.text ?? "")")
         print("Type: \(typeTextField.text ?? "")")
         print("Location: \(addressTextField.text ?? "")")
         print("Phone: \(phoneTextField.text ?? "")")
         print("Description: \(descriptionTextView.text ?? "")")
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true){
+            self.dataStore?.fetchRestaurantData()
+        }
     }
     
     // MARK: - Table View Delegate
