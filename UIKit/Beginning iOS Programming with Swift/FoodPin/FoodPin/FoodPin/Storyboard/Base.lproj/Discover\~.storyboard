@@ -187,7 +187,7 @@
         <scene sceneID="V47-fg-ahF">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dno-P9-Uvr" customClass="NavigationController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Favourites" image="tag.fill" catalog="system" id="y4D-vs-aLc"/>
+                    <tabBarItem key="tabBarItem" title="Favourites" image="star.fill" catalog="system" id="y4D-vs-aLc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="IMF-vu-dYX">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -851,105 +851,58 @@
                     </tabBar>
                     <connections>
                         <segue destination="Dno-P9-Uvr" kind="relationship" relationship="viewControllers" id="C78-A3-tO2"/>
-                        <segue destination="98g-We-FK1" kind="relationship" relationship="viewControllers" id="XaP-rL-rUi"/>
-                        <segue destination="Hz4-CW-i04" kind="relationship" relationship="viewControllers" id="YJP-PN-qbF"/>
+                        <segue destination="xWp-xO-SRh" kind="relationship" relationship="viewControllers" id="mgR-m3-Vxa"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Krg-Qi-8Bl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="159.54198473282443" y="-52.112676056338032"/>
         </scene>
-        <!--About-->
-        <scene sceneID="JbH-zG-ZRO">
+        <!--Discover-->
+        <scene sceneID="3dG-Yg-gVw">
             <objects>
-                <navigationController id="98g-We-FK1" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="About" image="square.stack" catalog="system" id="CDZ-jB-HfN"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lxI-oK-gxU">
+                <navigationController id="xWp-xO-SRh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Discover" image="wand.and.rays" catalog="system" id="UnA-5y-G71"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iuQ-VY-7jZ">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="39r-Y8-GGM" kind="relationship" relationship="rootViewController" id="Mk3-k8-U7v"/>
+                        <segue destination="Ebz-ND-hpE" kind="relationship" relationship="rootViewController" id="kkz-eL-BbO"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Vyk-j9-Exb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LsB-yb-n6u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="160" y="1240"/>
+            <point key="canvasLocation" x="930" y="945"/>
         </scene>
-        <!--About-->
-        <scene sceneID="OCv-wO-axe">
+        <!--Discover-->
+        <scene sceneID="BlL-9N-DVx">
             <objects>
-                <tableViewController id="39r-Y8-GGM" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ON5-Vn-a3i">
+                <tableViewController id="Ebz-ND-hpE" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="eus-A6-gts">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="T5F-tW-GTJ">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nUh-AU-deQ">
                                 <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T5F-tW-GTJ" id="8EE-ko-czt">
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nUh-AU-deQ" id="Gej-A9-Ger">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="39r-Y8-GGM" id="qia-F5-BdN"/>
-                            <outlet property="delegate" destination="39r-Y8-GGM" id="08k-Ut-rbQ"/>
+                            <outlet property="dataSource" destination="Ebz-ND-hpE" id="YJy-Ls-EWy"/>
+                            <outlet property="delegate" destination="Ebz-ND-hpE" id="SLQ-qX-lmo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="About" id="Ys1-Lm-XeJ"/>
+                    <navigationItem key="navigationItem" title="Discover" id="8XF-Gr-CjD"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ul5-J6-XiL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H9a-vN-H6y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1120" y="1240"/>
-        </scene>
-        <!--Discover-->
-        <scene sceneID="CY4-ON-7HD">
-            <objects>
-                <tableViewController id="F61-10-yWE" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="vRz-BB-ZWv">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Z3O-D5-aD0">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Z3O-D5-aD0" id="ymj-ME-hEk">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="F61-10-yWE" id="hdl-xa-eIl"/>
-                            <outlet property="delegate" destination="F61-10-yWE" id="G1Y-mx-3fL"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Discover" id="pRW-Wn-018"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="r83-oK-yEq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2839" y="1239"/>
-        </scene>
-        <!--Discover-->
-        <scene sceneID="eS1-vb-vMT">
-            <objects>
-                <navigationController id="Hz4-CW-i04" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Discover" image="wand.and.rays" catalog="system" id="9lf-Ub-Bj2"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="C9v-4p-sVi">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="F61-10-yWE" kind="relationship" relationship="rootViewController" id="Nve-i0-fge"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2w5-kz-7Tf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1932" y="1239"/>
+            <point key="canvasLocation" x="1836" y="945"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -968,8 +921,7 @@
         <image name="newphoto" width="1840" height="1380"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="sad" width="78" height="87"/>
-        <image name="square.stack" catalog="system" width="105" height="128"/>
-        <image name="tag.fill" catalog="system" width="128" height="118"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
         <image name="wand.and.rays" catalog="system" width="128" height="123"/>
         <image name="xmark" catalog="system" width="128" height="113"/>
         <namedColor name="NavigationBarTitle">
