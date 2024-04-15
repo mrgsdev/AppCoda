@@ -879,17 +879,33 @@
         <!--About-->
         <scene sceneID="OCv-wO-axe">
             <objects>
-                <tableViewController id="39r-Y8-GGM" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="ON5-Vn-a3i">
+                <tableViewController id="39r-Y8-GGM" customClass="AboutTableViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="ON5-Vn-a3i">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="wtN-oz-nIo">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="240"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about" translatesAutoresizingMaskIntoConstraints="NO" id="X48-go-H9o">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="240"/>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="X48-go-H9o" secondAttribute="trailing" id="537-xd-vU6"/>
+                                <constraint firstItem="X48-go-H9o" firstAttribute="top" secondItem="wtN-oz-nIo" secondAttribute="top" id="6AQ-Mh-Lvd"/>
+                                <constraint firstAttribute="bottom" secondItem="X48-go-H9o" secondAttribute="bottom" id="gVy-mf-d8E"/>
+                                <constraint firstItem="X48-go-H9o" firstAttribute="leading" secondItem="wtN-oz-nIo" secondAttribute="leading" id="utc-qL-bBC"/>
+                            </constraints>
+                        </view>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="T5F-tW-GTJ">
-                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="aboutcell" id="T5F-tW-GTJ">
+                                <rect key="frame" x="20" y="295.33333206176758" width="353" height="43.666667938232422"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="T5F-tW-GTJ" id="8EE-ko-czt">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="353" height="43.666667938232422"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -900,10 +916,48 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="About" id="Ys1-Lm-XeJ"/>
+                    <connections>
+                        <segue destination="mxf-d6-CfY" kind="show" identifier="showWebView" id="6AU-Sa-aJM"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ul5-J6-XiL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1120" y="1240"/>
+            <point key="canvasLocation" x="1119.8473282442749" y="1239.4366197183099"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="8x0-5N-KpV">
+            <objects>
+                <viewController id="mxf-d6-CfY" customClass="WebViewController" customModule="FoodPin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1ai-Cf-crC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iuq-RN-S9d">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8sk-y9-CsU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Iuq-RN-S9d" firstAttribute="trailing" secondItem="8sk-y9-CsU" secondAttribute="trailing" id="0r2-HQ-W3Q"/>
+                            <constraint firstItem="Iuq-RN-S9d" firstAttribute="top" secondItem="1ai-Cf-crC" secondAttribute="top" id="Fk9-q5-sI1"/>
+                            <constraint firstItem="Iuq-RN-S9d" firstAttribute="leading" secondItem="8sk-y9-CsU" secondAttribute="leading" id="MP6-m1-8oA"/>
+                            <constraint firstAttribute="bottom" secondItem="Iuq-RN-S9d" secondAttribute="bottom" id="RxG-19-Vrh"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4IK-vv-70E"/>
+                    <connections>
+                        <outlet property="webView" destination="Iuq-RN-S9d" id="EID-rP-rxu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5MX-L3-LSD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1136.6412213740457" y="2108.4507042253522"/>
         </scene>
         <!--Discover-->
         <scene sceneID="CY4-ON-7HD">
@@ -956,6 +1010,7 @@
         <segue reference="JhL-Ud-Xhf"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="about" width="1700" height="1200"/>
         <image name="angry" width="78" height="103"/>
         <image name="barrafina" width="426.66665649414062" height="426.66665649414062"/>
         <image name="cool" width="78" height="83"/>

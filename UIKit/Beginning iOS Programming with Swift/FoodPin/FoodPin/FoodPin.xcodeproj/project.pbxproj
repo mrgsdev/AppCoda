@@ -18,6 +18,8 @@
 		427842BB2BCCDED200D5EE2C /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427842BA2BCCDED200D5EE2C /* WalkthroughPageViewController.swift */; };
 		427842BD2BCCDEE600D5EE2C /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427842BC2BCCDEE600D5EE2C /* WalkthroughContentViewController.swift */; };
 		427842BF2BCCDEFB00D5EE2C /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427842BE2BCCDEFB00D5EE2C /* WalkthroughViewController.swift */; };
+		427842D02BCCE73500D5EE2C /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427842CF2BCCE73500D5EE2C /* AboutTableViewController.swift */; };
+		427842D22BCCE8DA00D5EE2C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427842D12BCCE8DA00D5EE2C /* WebViewController.swift */; };
 		42C94FC92BC7E4B8005918EE /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94FC82BC7E4B8005918EE /* Restaurant.swift */; };
 		42C94FD22BC821D2005918EE /* RestaurantDiffableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94FD12BC821D2005918EE /* RestaurantDiffableDataSource.swift */; };
 		42C94FD62BC923EA005918EE /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C94FD52BC923EA005918EE /* RestaurantDetailViewController.swift */; };
@@ -49,6 +51,8 @@
 		427842BA2BCCDED200D5EE2C /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
 		427842BC2BCCDEE600D5EE2C /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
 		427842BE2BCCDEFB00D5EE2C /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		427842CF2BCCE73500D5EE2C /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		427842D12BCCE8DA00D5EE2C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		42C94FC82BC7E4B8005918EE /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		42C94FD12BC821D2005918EE /* RestaurantDiffableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDiffableDataSource.swift; sourceTree = "<group>"; };
 		42C94FD52BC923EA005918EE /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 		42C94FCC2BC7EF32005918EE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				427842D12BCCE8DA00D5EE2C /* WebViewController.swift */,
 				423EA6102BC6B8EE00E406C1 /* RestaurantTableViewController.swift */,
 				42C94FD52BC923EA005918EE /* RestaurantDetailViewController.swift */,
 				42C950252BCA7971005918EE /* MapViewController.swift */,
@@ -143,6 +148,7 @@
 				427842BA2BCCDED200D5EE2C /* WalkthroughPageViewController.swift */,
 				427842BC2BCCDEE600D5EE2C /* WalkthroughContentViewController.swift */,
 				427842BE2BCCDEFB00D5EE2C /* WalkthroughViewController.swift */,
+				427842CF2BCCE73500D5EE2C /* AboutTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C94FC92BC7E4B8005918EE /* Restaurant.swift in Sources */,
+				427842D22BCCE8DA00D5EE2C /* WebViewController.swift in Sources */,
 				42C94FE82BC97D4F005918EE /* NavigationController.swift in Sources */,
 				42C950282BCA8151005918EE /* ReviewViewController.swift in Sources */,
 				42C94FDD2BC92F91005918EE /* RestaurantDetailTextCell.swift in Sources */,
@@ -268,6 +275,7 @@
 				42C94FDF2BC92FA0005918EE /* RestaurantDetailTwoColumnCell.swift in Sources */,
 				427842BF2BCCDEFB00D5EE2C /* WalkthroughViewController.swift in Sources */,
 				423EA6112BC6B8EE00E406C1 /* RestaurantTableViewController.swift in Sources */,
+				427842D02BCCE73500D5EE2C /* AboutTableViewController.swift in Sources */,
 				42C950242BCA73FB005918EE /* RestaurantDetailMapCell.swift in Sources */,
 				42C94FD22BC821D2005918EE /* RestaurantDiffableDataSource.swift in Sources */,
 				427842BD2BCCDEE600D5EE2C /* WalkthroughContentViewController.swift in Sources */,
