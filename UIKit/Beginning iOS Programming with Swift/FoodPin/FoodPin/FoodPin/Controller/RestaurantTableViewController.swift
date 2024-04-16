@@ -11,7 +11,7 @@ protocol RestaurantDataStore {
     func fetchRestaurantData()
     func updateSnapshot(animatingChange: Bool)
 }
-class RestaurantTableViewController: UITableViewController,RestaurantDataStore { 
+class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
     
     @IBOutlet var emptyRestaurantView: UIView!
     var container: ModelContainer?
@@ -40,7 +40,7 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         
         tableView.tableHeaderView = searchController.searchBar
         if let appearance = navigationController?.navigationBar.standardAppearance {
-
+            
             appearance.configureWithTransparentBackground()
             
             if let customFont = UIFont(name: "Nunito-Bold", size: 45.0) {
@@ -110,8 +110,79 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         return dataSource
     }
     
-    // MARK: - UITableViewDelegate Protocol
+    override func tableView(_ tableView: UITableView, contextMenuConfigurationForRowAt indexPath: IndexPath, point: CGPoint) -> UIContextMenuConfiguration? {
         
+        // Get the selected restaurant
+        guard let restaurant = self.dataSource.itemIdentifier(for: indexPath) else {
+            return nil
+        }
+        
+        let configuration = UIContextMenuConfiguration(identifier: indexPath.row as NSCopying, previewProvider: {
+            
+            guard let restaurantDetailViewController = self.storyboard?.instantiateViewController(withIdentifier: "RestaurantDetailViewController") as? RestaurantDetailViewController else {
+                return nil
+            }
+            
+            restaurantDetailViewController.restaurant = restaurant
+            
+            return restaurantDetailViewController
+            
+        }) { actions in
+            let titles = self.restaurants[indexPath.row].isFavorite ? "Unlike as favorite" : "Save as favorite"
+            let favoriteAction = UIAction(title: titles, image: UIImage(systemName: "heart")) { action in
+                
+                let cell = tableView.cellForRow(at: indexPath) as! RestaurantTableViewCell
+                self.restaurants[indexPath.row].isFavorite.toggle()
+                cell.favoriteImageView.isHidden = !self.restaurants[indexPath.row].isFavorite
+            }
+            
+            let shareAction = UIAction(title: "Share", image: UIImage(systemName: "square.and.arrow.up")) { action in
+                
+                let defaultText = NSLocalizedString("Just checking in at ", comment: "Just checking in at") + self.restaurants[indexPath.row].name
+                
+                let activityController = UIActivityViewController(activityItems: [defaultText, restaurant.image], applicationActivities: nil)
+                
+                self.present(activityController, animated: true, completion: nil)
+            }
+            
+            let deleteAction = UIAction(title: "Delete", image: UIImage(systemName: "trash"), attributes: .destructive) { action in
+                
+                var snapshot = self.dataSource.snapshot()
+                snapshot.deleteItems([restaurant])
+                self.dataSource.apply(snapshot, animatingDifferences: true)
+                
+                self.container?.mainContext.delete(restaurant)
+            }
+            
+            // Create and return a UIMenu with the share action
+            return UIMenu(title: "", children: [favoriteAction, shareAction, deleteAction])
+        }
+        
+        return configuration
+    }
+    override func tableView(_ tableView: UITableView, willPerformPreviewActionForMenuWith configuration: UIContextMenuConfiguration, animator: UIContextMenuInteractionCommitAnimating) {
+        
+        guard let selectedRow = configuration.identifier as? Int else {
+            print("Failed to retrieve the row number")
+            return
+        }
+        
+        guard let restaurantDetailViewController = self.storyboard?.instantiateViewController(withIdentifier: "RestaurantDetailViewController") as? RestaurantDetailViewController else {
+            
+            return
+        }
+        
+        restaurantDetailViewController.restaurant = self.restaurants[selectedRow]
+        
+        animator.preferredCommitStyle = .pop
+        animator.addCompletion {
+            self.show(restaurantDetailViewController, sender: self)
+        }
+    }
+    
+    
+    // MARK: - UITableViewDelegate Protocol
+    
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         
         if searchController.isActive {
@@ -157,13 +228,13 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         
         deleteAction.backgroundColor = UIColor.systemRed
         deleteAction.image = UIImage(systemName: "trash")
-
+        
         shareAction.backgroundColor = UIColor.systemOrange
         shareAction.image = UIImage(systemName: "square.and.arrow.up")
         
         // Configure both actions as swipe action
         let swipeConfiguration = UISwipeActionsConfiguration(actions: [deleteAction, shareAction])
-            
+        
         return swipeConfiguration
     }
     
@@ -173,7 +244,7 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         let favoriteAction = UIContextualAction(style: .destructive, title: "") { (action, sourceView, completionHandler) in
             
             let cell = tableView.cellForRow(at: indexPath) as! RestaurantTableViewCell
-
+            
             cell.favoriteImageView.isHidden = self.restaurants[indexPath.row].isFavorite
             
             self.restaurants[indexPath.row].isFavorite = self.restaurants[indexPath.row].isFavorite ? false : true
@@ -187,9 +258,9 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         favoriteAction.image = UIImage(systemName: self.restaurants[indexPath.row].isFavorite ? "heart.slash.fill" : "heart.fill")
         
         let swipeConfiguration = UISwipeActionsConfiguration(actions: [favoriteAction])
-            
+        
         return swipeConfiguration
-
+        
     }
     
     // MARK: - Navigation
@@ -204,16 +275,16 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         } else if segue.identifier == "addRestaurant" {
             
             if let navController = segue.destination as? UINavigationController,
-                let destinationController = navController.topViewController as? NewRestaurantController {
-            
+               let destinationController = navController.topViewController as? NewRestaurantController {
+                
                 print("Setting the data store...")
                 destinationController.dataStore = self
-
+                
             }
             
         }
     }
-
+    
     
     @IBAction func unwindToHome(segue: UIStoryboardSegue) {
         dismiss(animated: true, completion: nil)
@@ -223,7 +294,7 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
     func fetchRestaurantData() {
         fetchRestaurantData(searchText: "")
     }
-  
+    
     func fetchRestaurantData(searchText: String) {
         
         let descriptor: FetchDescriptor<Restaurant>
@@ -237,12 +308,12 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
             
             descriptor = FetchDescriptor<Restaurant>(predicate: predicate)
         }
-
+        
         restaurants = (try? container?.mainContext.fetch(descriptor)) ?? []
         
         updateSnapshot()
     }
-
+    
     func updateSnapshot(animatingChange: Bool = false) {
         
         // Create a snapshot and populate the data
@@ -251,11 +322,11 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         snapshot.appendItems(restaurants, toSection: .all)
         
         dataSource.apply(snapshot, animatingDifferences: animatingChange)
-      
+        
         tableView.backgroundView?.isHidden = restaurants.count == 0 ? false : true
         
     }
-
+    
 }
 
 extension RestaurantTableViewController: UISearchResultsUpdating {
@@ -264,7 +335,7 @@ extension RestaurantTableViewController: UISearchResultsUpdating {
         guard let searchText = searchController.searchBar.text else {
             return
         }
-    
+        
         fetchRestaurantData(searchText: searchText)
     }
 }
