@@ -2,17 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIApplicationShortcutItems</key>
-	<array>
-		<dict>
-			<key>UIApplicationShortcutItemType</key>
-			<string>com.mrgsdev.FoodPin</string>
-			<key>UIApplicationShortcutItemSubtitle</key>
-			<string>Create a new restaurant</string>
-			<key>UIApplicationShortcutItemTitle</key>
-			<string>New Restaurant</string>
-		</dict>
-	</array>
 	<key>NSCameraUsageDescription</key>
 	<string>You need to grant the app access to your camera in order to take photos.</string>
 	<key>NSPhotoLibraryUsageDescription</key>
