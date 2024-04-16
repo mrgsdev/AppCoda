@@ -34,7 +34,7 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         searchController = UISearchController(searchResultsController: nil)
         searchController.searchResultsUpdater = self
         searchController.obscuresBackgroundDuringPresentation = false
-        searchController.searchBar.placeholder = "Search restaurants..."
+        searchController.searchBar.placeholder = String(localized: "Search restaurants...",comment: "Search restaurants...")
         searchController.searchBar.backgroundImage = UIImage()
         searchController.searchBar.tintColor = UIColor(named: "NavigationBarTitle")
         
@@ -124,7 +124,7 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         }
         
         // Delete action
-        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { (action, sourceView, completionHandler) in
+        let deleteAction = UIContextualAction(style: .destructive, title: String(localized: "Delete",comment: "Delete")) { (action, sourceView, completionHandler) in
             
             var snapshot = self.dataSource.snapshot()
             snapshot.deleteItems([restaurant])
@@ -137,7 +137,7 @@ class RestaurantTableViewController: UITableViewController,RestaurantDataStore {
         }
         
         // Share action
-        let shareAction = UIContextualAction(style: .normal, title: "Share") { (action, sourceView, completionHandler) in
+        let shareAction = UIContextualAction(style: .normal, title: String(localized: "Share",comment: "Share")) { (action, sourceView, completionHandler) in
             let defaultText = "Just checking in at " + restaurant.name
             
             let activityController: UIActivityViewController

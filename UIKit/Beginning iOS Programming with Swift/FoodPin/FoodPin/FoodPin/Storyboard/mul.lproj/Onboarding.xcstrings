@@ -1,0 +1,90 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "DfC-ME-HcV.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Subheading\"; ObjectID = \"DfC-ME-HcV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Subheading"
+          }
+        }
+      }
+    },
+    "QCa-ER-i5o.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"HEADING\"; ObjectID = \"QCa-ER-i5o\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "HEADING"
+          }
+        }
+      }
+    },
+    "RC1-7v-LUn.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"NEXT\"; ObjectID = \"RC1-7v-LUn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "NEXT"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далее"
+          }
+        }
+      }
+    },
+    "RC1-7v-LUn.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"RC1-7v-LUn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    },
+    "SAQ-oN-OPT.configuration.title" : {
+      "comment" : "Class = \"UIButton\"; configuration.title = \"Skip\"; ObjectID = \"SAQ-oN-OPT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Skip"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пропустить"
+          }
+        }
+      }
+    },
+    "SAQ-oN-OPT.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Button\"; ObjectID = \"SAQ-oN-OPT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Button"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

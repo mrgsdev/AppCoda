@@ -1,0 +1,170 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Camera" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камера"
+          }
+        }
+      }
+    },
+    "Choose your photo source" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите источник фотографий"
+          }
+        }
+      }
+    },
+    "CREATE YOUR OWN FOOD GUIDE" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "СОЗДАЙТЕ СВОЙ СОБСТВЕННЫЙ ГИД ПО ПИТАНИЮ"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "comment" : "Delete",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
+        }
+      }
+    },
+    "DISCOVER GREAT RESTAURANTS" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ОТКРОЙТЕ ДЛЯ СЕБЯ ВЕЛИКОЛЕПНЫЕ РЕСТОРАНЫ"
+          }
+        }
+      }
+    },
+    "Find restaurants shared by your friends and other foodies" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Находите рестораны, о которых рассказывают ваши друзья и другие гурманы."
+          }
+        }
+      }
+    },
+    "GET STARTED" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начать"
+          }
+        }
+      }
+    },
+    "NEXT" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Далее"
+          }
+        }
+      }
+    },
+    "Oops" : {
+      "comment" : "Oops",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Упс"
+          }
+        }
+      }
+    },
+    "Photo library" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Галерея"
+          }
+        }
+      }
+    },
+    "Pin your favorite restaurants and create your own food guide" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмечайте любимые рестораны и создавайте собственный кулинарный гид"
+          }
+        }
+      }
+    },
+    "Search and locate your favourite restaurant on Maps" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск и определение местоположения вашего любимого ресторана на Картах"
+          }
+        }
+      }
+    },
+    "Search restaurants..." : {
+      "comment" : "Search restaurants...",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск ресторанов"
+          }
+        }
+      }
+    },
+    "Share" : {
+      "comment" : "Share",
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться"
+          }
+        }
+      }
+    },
+    "SHOW YOU THE LOCATION" : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ПОКАЗАТЬ МЕСТОПОЛОЖЕНИЕ"
+          }
+        }
+      }
+    },
+    "We can't proceed because one of the fields is blank. Please note that all fields are required." : {
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Одно из полей не заполнено. Все поля обязательны для заполнения."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
