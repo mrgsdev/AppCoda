@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		4227B75C2BD6429A0025782E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B75B2BD6429A0025782E /* AppDelegate.swift */; };
 		4227B75E2BD6429A0025782E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B75D2BD6429A0025782E /* SceneDelegate.swift */; };
-		4227B7602BD6429A0025782E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B75F2BD6429A0025782E /* ViewController.swift */; };
 		4227B7632BD6429A0025782E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4227B7622BD6429A0025782E /* Base */; };
 		4227B7652BD6429B0025782E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4227B7642BD6429B0025782E /* Assets.xcassets */; };
 		4227B7682BD6429B0025782E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 4227B7672BD6429B0025782E /* Base */; };
+		4227B7702BD643EE0025782E /* KivaLoanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B76F2BD643EE0025782E /* KivaLoanTableViewCell.swift */; };
+		4227B7722BD643FE0025782E /* KivaLoanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7712BD643FE0025782E /* KivaLoanTableViewController.swift */; };
+		4227B7742BD646D20025782E /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4227B7732BD646D20025782E /* Loan.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4227B7582BD6429A0025782E /* Chapter 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4227B75B2BD6429A0025782E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4227B75D2BD6429A0025782E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4227B75F2BD6429A0025782E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4227B7622BD6429A0025782E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4227B7642BD6429B0025782E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4227B7672BD6429B0025782E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4227B7692BD6429B0025782E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4227B76F2BD643EE0025782E /* KivaLoanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewCell.swift; sourceTree = "<group>"; };
+		4227B7712BD643FE0025782E /* KivaLoanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KivaLoanTableViewController.swift; sourceTree = "<group>"; };
+		4227B7732BD646D20025782E /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				4227B75B2BD6429A0025782E /* AppDelegate.swift */,
 				4227B75D2BD6429A0025782E /* SceneDelegate.swift */,
-				4227B75F2BD6429A0025782E /* ViewController.swift */,
 				4227B7612BD6429A0025782E /* Main.storyboard */,
 				4227B7642BD6429B0025782E /* Assets.xcassets */,
 				4227B7662BD6429B0025782E /* LaunchScreen.storyboard */,
 				4227B7692BD6429B0025782E /* Info.plist */,
+				4227B76F2BD643EE0025782E /* KivaLoanTableViewCell.swift */,
+				4227B7712BD643FE0025782E /* KivaLoanTableViewController.swift */,
+				4227B7732BD646D20025782E /* Loan.swift */,
 			);
 			path = "Chapter 4";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4227B7602BD6429A0025782E /* ViewController.swift in Sources */,
 				4227B75C2BD6429A0025782E /* AppDelegate.swift in Sources */,
+				4227B7742BD646D20025782E /* Loan.swift in Sources */,
+				4227B7702BD643EE0025782E /* KivaLoanTableViewCell.swift in Sources */,
+				4227B7722BD643FE0025782E /* KivaLoanTableViewController.swift in Sources */,
 				4227B75E2BD6429A0025782E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
