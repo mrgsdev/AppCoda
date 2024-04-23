@@ -11,6 +11,7 @@
 - [x] [Chapter 3: Animating Table View Cells](#3)
 - [x] [Chapter 4: Working with JSON and Codable in Swift](#4)
 - [ ] Chapter 5: X and Facebook SDK(Meta & X has been blocked in my country)
+- [x] [Chapter 6: Working with Email and Attachments](#6)
 
  
 <a name="1"></a>
@@ -30,5 +31,11 @@
 # [Working with JSON and Codable in Swift](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%204) 
 ![Chapter 4](https://github.com/mrgsdev/AppCoda/assets/157994617/cd15c0a9-a3e3-4828-8b87-5dd23bd70b5f)
 ##
+
+<a name="6"></a>
+# [Working with JSON and Codable in Swift](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%206) 
+![Chapter 6](https://github.com/mrgsdev/AppCoda/assets/157994617/c97c5c6b-be8d-421e-ba6c-62b0133e8f3f)
+##
+
 
 
