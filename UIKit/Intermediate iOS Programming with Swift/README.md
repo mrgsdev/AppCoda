@@ -12,6 +12,7 @@
 - [x] [Chapter 4: Working with JSON and Codable in Swift](#4)
 - [ ] Chapter 5: X and Facebook SDK(Meta & X has been blocked in my country)
 - [x] [Chapter 6: Working with Email and Attachments](#6)
+- [ ] [Chapter 7: Sending SMS and MMS Using MessageUI Framework](#7)
 
  
 <a name="1"></a>
@@ -35,6 +36,10 @@
 <a name="6"></a>
 # [Working with JSON and Codable in Swift](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%206) 
 ![Chapter 6](https://github.com/mrgsdev/AppCoda/assets/157994617/c97c5c6b-be8d-421e-ba6c-62b0133e8f3f)
+##
+<a name="7"></a>
+# [Sending SMS and MMS Using MessageUI Framework](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%207) 
+![Chapter 7](https://github.com/mrgsdev/AppCoda/assets/157994617/3f46b459-6d95-4ded-92df-b25937b43671)
 ##
 
 
