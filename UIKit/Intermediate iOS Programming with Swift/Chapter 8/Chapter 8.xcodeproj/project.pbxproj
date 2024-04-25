@@ -15,6 +15,7 @@
 		42AD09B32BDA3B72004437D4 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD09B22BDA3B72004437D4 /* Restaurant.swift */; };
 		42AD09B52BDA3B90004437D4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD09B42BDA3B90004437D4 /* MapViewController.swift */; };
 		42AD09B72BDA3C06004437D4 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD09B62BDA3C06004437D4 /* RestaurantTableViewController.swift */; };
+		42AD09B92BDA4100004437D4 /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AD09B82BDA4100004437D4 /* RouteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		42AD09B22BDA3B72004437D4 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		42AD09B42BDA3B90004437D4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		42AD09B62BDA3C06004437D4 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
+		42AD09B82BDA4100004437D4 /* RouteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				42AD09AA2BDA3A57004437D4 /* Info.plist */,
 				42AD09B22BDA3B72004437D4 /* Restaurant.swift */,
 				42AD09B42BDA3B90004437D4 /* MapViewController.swift */,
+				42AD09B82BDA4100004437D4 /* RouteTableViewController.swift */,
 			);
 			path = "Chapter 8";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				42AD09B72BDA3C06004437D4 /* RestaurantTableViewController.swift in Sources */,
 				42AD09B52BDA3B90004437D4 /* MapViewController.swift in Sources */,
 				42AD099F2BDA3A56004437D4 /* SceneDelegate.swift in Sources */,
+				42AD09B92BDA4100004437D4 /* RouteTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
