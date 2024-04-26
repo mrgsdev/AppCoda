@@ -13,7 +13,8 @@
 - [ ] Chapter 5: X and Facebook SDK(Meta & X has been blocked in my country)
 - [x] [Chapter 6: Working with Email and Attachments](#6)
 - [x] [Chapter 7: Sending SMS and MMS Using MessageUI Framework](#7)
-- [x] [Chapter 8: How to Get Direction and Draw Route on Maps](#8) 
+- [x] [Chapter 8: How to Get Direction and Draw Route on Maps](#8)
+- [x] [Chapter 9: Search for Nearby Points of Interest Using Local Search](#9) 
 
  
 <a name="1"></a>
@@ -53,8 +54,8 @@
     <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/6efba5c5-a560-420b-91cf-8118c9555363" alt="Third" width="250">
 </div>  
 </details>
-
 ##
-
-
-
+<a name="9"></a>
+# [Search for Nearby Points of Interest Using Local Search](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%209) 
+![Chapter 9](https://github.com/mrgsdev/AppCoda/assets/157994617/e0e5d2b0-4312-438e-b4ad-68bdeff53626)
+##
