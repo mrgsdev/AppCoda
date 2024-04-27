@@ -14,7 +14,8 @@
 - [x] [Chapter 6: Working with Email and Attachments](#6)
 - [x] [Chapter 7: Sending SMS and MMS Using MessageUI Framework](#7)
 - [x] [Chapter 8: How to Get Direction and Draw Route on Maps](#8)
-- [x] [Chapter 9: Search for Nearby Points of Interest Using Local Search](#9) 
+- [x] [Chapter 9: Search for Nearby Points of Interest Using Local Search](#9)
+- [x] [Chapter 10: Audio Recording and Playback](#10)
 
  
 <a name="1"></a>
@@ -36,7 +37,7 @@
 ##
 
 <a name="6"></a>
-# [Working with JSON and Codable in Swift](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%206) 
+# [Working with Email and Attachments](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%206) 
 ![Chapter 6](https://github.com/mrgsdev/AppCoda/assets/157994617/c97c5c6b-be8d-421e-ba6c-62b0133e8f3f)
 ##
 <a name="7"></a>
@@ -54,9 +55,16 @@
     <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/6efba5c5-a560-420b-91cf-8118c9555363" alt="Third" width="250">
 </div>  
 </details>
+ 
 ##
 
 <a name="9"></a>
 # [Search for Nearby Points of Interest Using Local Search](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%209) 
 ![Chapter 9](https://github.com/mrgsdev/AppCoda/assets/157994617/e0e5d2b0-4312-438e-b4ad-68bdeff53626)
 ##
+<a name="10"></a>
+# [Audio Recording and Playback](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%210) 
+![Chapter 10](https://github.com/mrgsdev/AppCoda/assets/157994617/552c04c4-6a81-41d4-8cc6-9a4e3780ea41)
+##
+
+
