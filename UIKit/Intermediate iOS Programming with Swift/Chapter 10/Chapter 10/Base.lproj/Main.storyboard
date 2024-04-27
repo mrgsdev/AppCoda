@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xgc-uu-7AR">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Record Pro Controller-->
+        <scene sceneID="fYX-v4-N8f">
+            <objects>
+                <viewController id="xgc-uu-7AR" customClass="RecordProController" customModule="Chapter_10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c7D-Ke-VeS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="TX8-Dm-0CJ">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Record Pro" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cd0-eK-yRH">
+                                <rect key="frame" x="146.66666666666666" y="76" width="100" height="27.333333333333329"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="QkF-dL-w63">
+                                <rect key="frame" x="28" y="125.99999999999999" width="336" height="136.66666666666663"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfx-VR-IXN">
+                                        <rect key="frame" x="51" y="0.0" width="234" height="136.66666666666666"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="100"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhk-Uw-0NE">
+                                <rect key="frame" x="161.66666666666666" y="727" width="70" height="70"/>
+                                <state key="normal" image="Record"/>
+                                <connections>
+                                    <action selector="recordWithSender:" destination="xgc-uu-7AR" eventType="touchUpInside" id="nw1-t9-yck"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbr-Ry-ZDc">
+                                <rect key="frame" x="85.666666666666671" y="737" width="50.000000000000014" height="50"/>
+                                <state key="normal" image="Play"/>
+                                <connections>
+                                    <action selector="playWithSender:" destination="xgc-uu-7AR" eventType="touchUpInside" id="Ftb-Xc-kAm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yr2-Cp-wn2">
+                                <rect key="frame" x="257.66666666666669" y="737" width="50" height="50"/>
+                                <state key="normal" image="Stop"/>
+                                <connections>
+                                    <action selector="stopWithSender:" destination="xgc-uu-7AR" eventType="touchUpInside" id="UZR-rN-PnH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RM3-D5-lvE"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RM3-D5-lvE" firstAttribute="trailing" secondItem="TX8-Dm-0CJ" secondAttribute="trailing" id="0yQ-0R-iwG"/>
+                            <constraint firstItem="yr2-Cp-wn2" firstAttribute="top" secondItem="TX8-Dm-0CJ" secondAttribute="bottom" constant="-115" id="3Su-xF-zH1"/>
+                            <constraint firstItem="TX8-Dm-0CJ" firstAttribute="top" secondItem="c7D-Ke-VeS" secondAttribute="top" id="8ob-PE-WQk"/>
+                            <constraint firstItem="gbr-Ry-ZDc" firstAttribute="top" secondItem="TX8-Dm-0CJ" secondAttribute="bottom" constant="-115" id="HEm-XO-bnd"/>
+                            <constraint firstItem="TX8-Dm-0CJ" firstAttribute="bottom" secondItem="jhk-Uw-0NE" secondAttribute="bottom" constant="55" id="Q9Z-Hj-O4R"/>
+                            <constraint firstItem="Cd0-eK-yRH" firstAttribute="centerX" secondItem="RM3-D5-lvE" secondAttribute="centerX" id="RgA-wC-KY2"/>
+                            <constraint firstAttribute="bottom" secondItem="TX8-Dm-0CJ" secondAttribute="bottom" id="SiM-8u-XWi"/>
+                            <constraint firstItem="Cd0-eK-yRH" firstAttribute="top" secondItem="c7D-Ke-VeS" secondAttribute="topMargin" constant="17" id="T1q-Zw-xSu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QkF-dL-w63" secondAttribute="trailing" constant="13" id="VgA-eZ-RPn"/>
+                            <constraint firstItem="TX8-Dm-0CJ" firstAttribute="leading" secondItem="RM3-D5-lvE" secondAttribute="leading" id="X7N-dK-rZj"/>
+                            <constraint firstItem="jhk-Uw-0NE" firstAttribute="centerX" secondItem="RM3-D5-lvE" secondAttribute="centerX" id="fIO-Cr-Ppc"/>
+                            <constraint firstItem="QkF-dL-w63" firstAttribute="leading" secondItem="c7D-Ke-VeS" secondAttribute="leadingMargin" constant="12" id="hCZ-1n-vCp"/>
+                            <constraint firstItem="jhk-Uw-0NE" firstAttribute="leading" secondItem="gbr-Ry-ZDc" secondAttribute="trailing" constant="26" id="hZq-BY-qoH"/>
+                            <constraint firstItem="QkF-dL-w63" firstAttribute="top" secondItem="Cd0-eK-yRH" secondAttribute="bottom" constant="22.5" id="k8l-wv-sHL"/>
+                            <constraint firstItem="yr2-Cp-wn2" firstAttribute="leading" secondItem="jhk-Uw-0NE" secondAttribute="trailing" constant="26" id="ts5-jC-495"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="playButton" destination="gbr-Ry-ZDc" id="Tal-p6-Pe7"/>
+                        <outlet property="recordButton" destination="jhk-Uw-0NE" id="Geb-Xc-aM2"/>
+                        <outlet property="stopButton" destination="yr2-Cp-wn2" id="LuG-Pk-Zdx"/>
+                        <outlet property="timeLabel" destination="Rfx-VR-IXN" id="4CG-vO-DtN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0aJ-O4-4sW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1073" y="-23"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="375" height="667"/>
+        <image name="Play" width="50" height="50"/>
+        <image name="Record" width="70" height="70"/>
+        <image name="Stop" width="50" height="50"/>
+    </resources>
+</document>
