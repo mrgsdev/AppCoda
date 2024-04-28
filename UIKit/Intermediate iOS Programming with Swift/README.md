@@ -16,6 +16,7 @@
 - [x] [Chapter 8: How to Get Direction and Draw Route on Maps](#8)
 - [x] [Chapter 9: Search for Nearby Points of Interest Using Local Search](#9)
 - [x] [Chapter 10: Audio Recording and Playback](#10)
+- [x] [Chapter 11: Scan QR Code Using AVFoundation Framework](#11)
 
  
 <a name="1"></a>
@@ -66,5 +67,8 @@
 # [Audio Recording and Playback](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2010) 
 ![Chapter 10](https://github.com/mrgsdev/AppCoda/assets/157994617/552c04c4-6a81-41d4-8cc6-9a4e3780ea41)
 ##
-
+<a name="11"></a>
+# [Scan QR Code Using AVFoundation Framework](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2011) 
+![Chapter 11](https://github.com/mrgsdev/AppCoda/assets/157994617/d0c9a39f-1473-4ee4-ba20-520d068efc59)
+##
 
