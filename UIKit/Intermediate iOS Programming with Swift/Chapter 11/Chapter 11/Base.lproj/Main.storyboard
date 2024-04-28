@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qXH-9W-Ptc">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Scanner Controller-->
+        <scene sceneID="C1r-2b-ItJ">
+            <objects>
+                <viewController id="qXH-9W-Ptc" customClass="QRScannerController" customModule="Chapter_11" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vkP-W4-DEW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view alpha="0.80000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4y6-o4-ky8" userLabel="Topbar">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Scan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRb-Ck-Y7h">
+                                        <rect key="frame" x="171.66666666666666" y="64.333333333333329" width="50" height="27.666666666666671"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="BRb-Ck-Y7h" firstAttribute="centerX" secondItem="4y6-o4-ky8" secondAttribute="centerX" id="Tff-ZN-7Pa"/>
+                                    <constraint firstAttribute="height" constant="100" id="YK5-qD-hal"/>
+                                    <constraint firstAttribute="bottom" secondItem="BRb-Ck-Y7h" secondAttribute="bottom" constant="8" id="eqL-ih-gvh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.60000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No QR code is detected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTA-sI-VXt">
+                                <rect key="frame" x="0.0" y="778" width="393" height="40"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="0dj-CU-2Oo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vAt-eT-B0n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vAt-eT-B0n" firstAttribute="trailing" secondItem="GTA-sI-VXt" secondAttribute="trailing" id="6cP-QY-8TO"/>
+                            <constraint firstItem="GTA-sI-VXt" firstAttribute="leading" secondItem="vAt-eT-B0n" secondAttribute="leading" id="6kl-Va-Qhv"/>
+                            <constraint firstItem="4y6-o4-ky8" firstAttribute="top" secondItem="vkP-W4-DEW" secondAttribute="top" id="B35-Rv-kO1"/>
+                            <constraint firstItem="4y6-o4-ky8" firstAttribute="trailing" secondItem="vAt-eT-B0n" secondAttribute="trailing" id="Wap-P5-rHq"/>
+                            <constraint firstItem="4y6-o4-ky8" firstAttribute="leading" secondItem="vAt-eT-B0n" secondAttribute="leading" id="wQr-Zz-V88"/>
+                            <constraint firstItem="vAt-eT-B0n" firstAttribute="bottom" secondItem="GTA-sI-VXt" secondAttribute="bottom" id="xWV-CY-FXs"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="messageLabel" destination="GTA-sI-VXt" id="MAz-go-UQf"/>
+                        <outlet property="topbar" destination="BRb-Ck-Y7h" id="FJd-1x-kuX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GXv-OW-5cf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="997.70992366412213" y="-27.464788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
