@@ -17,6 +17,7 @@
 - [x] [Chapter 9: Search for Nearby Points of Interest Using Local Search](#9)
 - [x] [Chapter 10: Audio Recording and Playback](#10)
 - [x] [Chapter 11: Scan QR Code Using AVFoundation Framework](#11)
+- [x] [Chapter 12 Working with URL Schemes](#12)
 
  
 <a name="1"></a>
@@ -70,5 +71,9 @@
 <a name="11"></a>
 # [Scan QR Code Using AVFoundation Framework](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2011) 
 ![Chapter 11](https://github.com/mrgsdev/AppCoda/assets/157994617/d0c9a39f-1473-4ee4-ba20-520d068efc59)
+##
+<a name="12"></a>
+# [Scan QR Code Using AVFoundation Framework](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2012)  
+![Chapter 12](https://github.com/mrgsdev/AppCoda/assets/157994617/5e8499f3-4bce-49e7-91f1-f372e25cd445)
 ##
 
