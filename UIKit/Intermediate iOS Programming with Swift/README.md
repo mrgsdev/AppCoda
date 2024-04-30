@@ -17,7 +17,8 @@
 - [x] [Chapter 9: Search for Nearby Points of Interest Using Local Search](#9)
 - [x] [Chapter 10: Audio Recording and Playback](#10)
 - [x] [Chapter 11: Scan QR Code Using AVFoundation Framework](#11)
-- [x] [Chapter 12 Working with URL Schemes](#12)
+- [x] [Chapter 12: Working with URL Schemes](#12)
+- [x] [Chapter 13: Building a Full Screen Camera with Gesture-based Controls](#13)
 
  
 <a name="1"></a>
@@ -73,7 +74,18 @@
 ![Chapter 11](https://github.com/mrgsdev/AppCoda/assets/157994617/d0c9a39f-1473-4ee4-ba20-520d068efc59)
 ##
 <a name="12"></a>
-# [Scan QR Code Using AVFoundation Framework](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2012)  
+# [Working with URL Schemes](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2012)  
 ![Chapter 12](https://github.com/mrgsdev/AppCoda/assets/157994617/5e8499f3-4bce-49e7-91f1-f372e25cd445)
+##
+<a name="13"></a>
+# [Building a Full Screen Camera with Gesture-based Controls](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2013) 
+![Chapter 13](https://github.com/mrgsdev/AppCoda/assets/157994617/1bd64dc9-a8ae-44a2-b886-7f407fc8c7be)
+<details>
+<summary><h2>Video</h2></summary>
+ <div  align="center">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/9da90c4e-da50-4f9f-9218-1ae935031a5f" alt="First" width="250">
+</div>  
+</details> 
+
 ##
 
