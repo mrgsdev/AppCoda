@@ -19,6 +19,7 @@
 - [x] [Chapter 11: Scan QR Code Using AVFoundation Framework](#11)
 - [x] [Chapter 12: Working with URL Schemes](#12)
 - [x] [Chapter 13: Building a Full Screen Camera with Gesture-based Controls](#13)
+- [x] [Chapter 14: Video Capturing and Playback Using AVKit](#14)
 
  
 <a name="1"></a>
@@ -84,6 +85,17 @@
 <summary><h2>Video</h2></summary>
  <div  align="center">
     <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/9da90c4e-da50-4f9f-9218-1ae935031a5f" alt="First" width="250">
+</div>  
+</details> 
+
+##
+<a name="14"></a>
+# [Video Capturing and Playback Using AVKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2013) 
+![Chapter 13](https://github.com/mrgsdev/AppCoda/assets/157994617/0a3a3057-b4d7-456f-b17a-bcdfb76ae525)
+<details>
+<summary><h2>Video</h2></summary>
+ <div  align="center">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/1ac4cacc-793e-427d-9ef6-0ba03aed6673" alt="First" width="250">
 </div>  
 </details> 
 
