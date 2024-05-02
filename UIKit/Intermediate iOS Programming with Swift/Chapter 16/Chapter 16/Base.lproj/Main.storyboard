@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0Un-ho-kP3">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="765-ZX-ZfA">
+            <objects>
+                <viewController id="0Un-ho-kP3" customClass="ViewController" customModule="Chapter_16" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JVA-Jd-rZf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't be discouraged. It's often the last key in the bunch that opens the lock." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MNv-GD-hjW">
+                                <rect key="frame" x="16" y="159.66666666666666" width="361" height="42.333333333333343"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't tell people your dream. Show them." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bMa-la-vuS">
+                                <rect key="frame" x="16" y="69" width="361" height="67.666666666666686"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you add values to the world, the world will give more values than you can imagine." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2yr-Mo-fhy">
+                                <rect key="frame" x="16" y="224.99999999999997" width="361" height="89.666666666666657"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uWl-PR-Mlw"/>
+                        <color key="backgroundColor" red="0.031372549020000001" green="0.035294117649999998" blue="0.3411764706" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="MNv-GD-hjW" firstAttribute="leading" secondItem="uWl-PR-Mlw" secondAttribute="leading" constant="16" id="6fA-PL-jlK"/>
+                            <constraint firstItem="2yr-Mo-fhy" firstAttribute="leading" secondItem="uWl-PR-Mlw" secondAttribute="leading" constant="16" id="CEj-7d-f0u"/>
+                            <constraint firstItem="uWl-PR-Mlw" firstAttribute="trailing" secondItem="bMa-la-vuS" secondAttribute="trailing" constant="16" id="L8W-68-mb0"/>
+                            <constraint firstItem="uWl-PR-Mlw" firstAttribute="trailing" secondItem="2yr-Mo-fhy" secondAttribute="trailing" constant="16" id="NVM-I7-zOp"/>
+                            <constraint firstItem="2yr-Mo-fhy" firstAttribute="top" secondItem="MNv-GD-hjW" secondAttribute="bottom" constant="23" id="Ws1-Z3-3Bh"/>
+                            <constraint firstItem="uWl-PR-Mlw" firstAttribute="trailing" secondItem="MNv-GD-hjW" secondAttribute="trailing" constant="16" id="eij-vn-n2E"/>
+                            <constraint firstItem="bMa-la-vuS" firstAttribute="leading" secondItem="uWl-PR-Mlw" secondAttribute="leading" constant="16" id="u8W-XS-dcz"/>
+                            <constraint firstItem="bMa-la-vuS" firstAttribute="top" secondItem="uWl-PR-Mlw" secondAttribute="top" constant="10" id="vmC-fy-SHx"/>
+                            <constraint firstItem="MNv-GD-hjW" firstAttribute="top" secondItem="bMa-la-vuS" secondAttribute="bottom" constant="23" id="zuB-sd-EBQ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label1" destination="bMa-la-vuS" id="Ghb-MV-EhR"/>
+                        <outlet property="label2" destination="MNv-GD-hjW" id="6Fh-ma-rvf"/>
+                        <outlet property="label3" destination="2yr-Mo-fhy" id="Fbd-eT-yuv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EXj-96-rND" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.60000000000002" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

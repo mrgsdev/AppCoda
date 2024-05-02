@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Mohave-Bold.otf</string>
+		<string>Mohave-BoldItalic.otf</string>
+		<string>Mohave-Italic.otf</string>
+		<string>Mohave-Light.otf</string>
+		<string>Mohave-LightItalic.otf</string>
+		<string>Mohave-Medium.otf</string>
+		<string>Mohave-MediumItalic.otf</string>
+		<string>Mohave-Regular.otf</string>
+		<string>Canter-Bold.ttf</string>
+		<string>Canter-Light.ttf</string>
+		<string>Hallo sans black.otf</string>
+		<string>Hallo sans light.otf</string>
+		<string>Hallo sans.otf</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
