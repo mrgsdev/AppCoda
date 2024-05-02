@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		428474F92BCFAE200051FC0D /* Adaptive User Interfaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Adaptive User Interfaces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		428474F92BCFAE200051FC0D /* Chapter 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chapter 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		428474FC2BCFAE200051FC0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		428474FE2BCFAE200051FC0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		428475002BCFAE200051FC0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		428474F02BCFAE1F0051FC0D = {
 			isa = PBXGroup;
 			children = (
-				428474FB2BCFAE200051FC0D /* Adaptive User Interfaces */,
+				428474FB2BCFAE200051FC0D /* Chapter 1 */,
 				428474FA2BCFAE200051FC0D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		428474FA2BCFAE200051FC0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				428474F92BCFAE200051FC0D /* Adaptive User Interfaces.app */,
+				428474F92BCFAE200051FC0D /* Chapter 1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		428474FB2BCFAE200051FC0D /* Adaptive User Interfaces */ = {
+		428474FB2BCFAE200051FC0D /* Chapter 1 */ = {
 			isa = PBXGroup;
 			children = (
 				428474FC2BCFAE200051FC0D /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				428475072BCFAE200051FC0D /* LaunchScreen.storyboard */,
 				4284750A2BCFAE200051FC0D /* Info.plist */,
 			);
-			path = "Adaptive User Interfaces";
+			path = "Chapter 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		428474F82BCFAE1F0051FC0D /* Adaptive User Interfaces */ = {
+		428474F82BCFAE1F0051FC0D /* Chapter 1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4284750D2BCFAE200051FC0D /* Build configuration list for PBXNativeTarget "Adaptive User Interfaces" */;
+			buildConfigurationList = 4284750D2BCFAE200051FC0D /* Build configuration list for PBXNativeTarget "Chapter 1" */;
 			buildPhases = (
 				428474F52BCFAE1F0051FC0D /* Sources */,
 				428474F62BCFAE1F0051FC0D /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Adaptive User Interfaces";
+			name = "Chapter 1";
 			productName = "Adaptive User Interfaces";
-			productReference = 428474F92BCFAE200051FC0D /* Adaptive User Interfaces.app */;
+			productReference = 428474F92BCFAE200051FC0D /* Chapter 1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 428474F42BCFAE1F0051FC0D /* Build configuration list for PBXProject "Adaptive User Interfaces" */;
+			buildConfigurationList = 428474F42BCFAE1F0051FC0D /* Build configuration list for PBXProject "Chapter 1" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				428474F82BCFAE1F0051FC0D /* Adaptive User Interfaces */,
+				428474F82BCFAE1F0051FC0D /* Chapter 1 */,
 			);
 		};
 /* End PBXProject section */
@@ -294,7 +294,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y2Y34S7QM3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Adaptive User Interfaces/Info.plist";
+				INFOPLIST_FILE = "Chapter 1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +305,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Adaptive-User-Interfaces";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Chapter-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,7 +322,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y2Y34S7QM3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Adaptive User Interfaces/Info.plist";
+				INFOPLIST_FILE = "Chapter 1/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Adaptive-User-Interfaces";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mrgsdev.Chapter-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -344,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		428474F42BCFAE1F0051FC0D /* Build configuration list for PBXProject "Adaptive User Interfaces" */ = {
+		428474F42BCFAE1F0051FC0D /* Build configuration list for PBXProject "Chapter 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4284750B2BCFAE200051FC0D /* Debug */,
@@ -353,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4284750D2BCFAE200051FC0D /* Build configuration list for PBXNativeTarget "Adaptive User Interfaces" */ = {
+		4284750D2BCFAE200051FC0D /* Build configuration list for PBXNativeTarget "Chapter 1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4284750E2BCFAE200051FC0D /* Debug */,
