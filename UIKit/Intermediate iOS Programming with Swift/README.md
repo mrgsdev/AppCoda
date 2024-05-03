@@ -20,7 +20,7 @@
 - [x] [Chapter 12: Working with URL Schemes](#12)
 - [x] [Chapter 13: Building a Full Screen Camera with Gesture-based Controls](#13)
 - [x] [Chapter 14: Video Capturing and Playback Using AVKit](#14)
-- [ ] [Chapter 15: Displaying Banner Ads using Google AdMob](#15)
+- [x] [Chapter 15: Displaying Banner Ads using Google AdMob](#15)
 - [x] [Chapter 16: Working with Custom Fonts and Dynamic Type](#16)
 
  
@@ -104,8 +104,7 @@
 ##
 <a name="15"></a>
 # [Displaying Banner Ads using Google AdMob](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2015)  
-
-
+![Chapter 15](https://github.com/mrgsdev/AppCoda/assets/157994617/46fcd5be-59ee-4df5-932a-de97be24d993)
 ##
 <a name="16"></a>
 # [Working with Custom Fonts and Dynamic Type](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2016)  
