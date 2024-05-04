@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="36C-Og-kX4">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--AirDrop Demo-->
+        <scene sceneID="a0J-xv-j9c">
+            <objects>
+                <tableViewController id="h8K-hb-OWk" customClass="AirDropTableViewController" customModule="Chapter_17" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="wOH-Pc-Dl2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="a4X-zo-QbO">
+                                <rect key="frame" x="0.0" y="50" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="a4X-zo-QbO" id="4pY-f3-BI8">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="Kya-L8-KMo" kind="show" identifier="showFileDetail" id="rMU-Bn-OuT"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="h8K-hb-OWk" id="Jua-CZ-7Cn"/>
+                            <outlet property="delegate" destination="h8K-hb-OWk" id="9na-9u-gne"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="AirDrop Demo" id="gjj-Vn-a4E"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ihq-lb-KAv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="114.69265367316342"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="4iM-nS-hYj">
+            <objects>
+                <viewController id="Kya-L8-KMo" customClass="DetailViewController" customModule="Chapter_17" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZG9-17-oaw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oi0-iW-ON6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mew-eq-fkb">
+                                <rect key="frame" x="0.0" y="847" width="414" height="49"/>
+                                <items>
+                                    <barButtonItem systemItem="action" id="abn-Rg-ngI">
+                                        <connections>
+                                            <action selector="shareWithSender:" destination="Kya-L8-KMo" id="n7i-G5-JNR"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="CEn-JB-Vm4"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Oi0-iW-ON6" firstAttribute="top" secondItem="ZG9-17-oaw" secondAttribute="top" id="2eh-DT-byf"/>
+                            <constraint firstItem="Oi0-iW-ON6" firstAttribute="bottom" secondItem="CEn-JB-Vm4" secondAttribute="bottom" id="ESS-mH-aAL"/>
+                            <constraint firstItem="Oi0-iW-ON6" firstAttribute="trailing" secondItem="CEn-JB-Vm4" secondAttribute="trailing" id="fCF-PX-A7n"/>
+                            <constraint firstAttribute="bottom" secondItem="mew-eq-fkb" secondAttribute="bottom" id="q6x-hF-PwO"/>
+                            <constraint firstItem="mew-eq-fkb" firstAttribute="trailing" secondItem="CEn-JB-Vm4" secondAttribute="trailing" id="u9x-UI-Yjv"/>
+                            <constraint firstItem="Oi0-iW-ON6" firstAttribute="leading" secondItem="CEn-JB-Vm4" secondAttribute="leading" id="ui0-PS-JnK"/>
+                            <constraint firstItem="mew-eq-fkb" firstAttribute="leading" secondItem="CEn-JB-Vm4" secondAttribute="leading" id="yem-gp-NPd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1s7-DF-UoT"/>
+                    <connections>
+                        <outlet property="actionButtonItem" destination="abn-Rg-ngI" id="QRr-rG-P7Z"/>
+                        <outlet property="webView" destination="Oi0-iW-ON6" id="Amw-PW-ABn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6C-iT-duF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808.8" y="114.69265367316342"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IeZ-4S-IaN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="36C-Og-kX4" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MZu-K0-Ifd">
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="h8K-hb-OWk" kind="relationship" relationship="rootViewController" id="KAi-fC-XWO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="enN-Rg-SHD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="115"/>
+        </scene>
+    </scenes>
+</document>
