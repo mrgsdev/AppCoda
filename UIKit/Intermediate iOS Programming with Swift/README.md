@@ -22,8 +22,8 @@
 - [x] [Chapter 14: Video Capturing and Playback Using AVKit](#14)
 - [x] [Chapter 15: Displaying Banner Ads using Google AdMob](#15)
 - [x] [Chapter 16: Working with Custom Fonts and Dynamic Type](#16)
+- [x] [Chapter 20: Adaptive Collection Views Using UITraitCollection and Compositional Layout](#20)
 
- 
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Adaptive%20User%20Interfaces)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -110,3 +110,12 @@
 # [Working with Custom Fonts and Dynamic Type](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2016)  
 ![Chapter 16](https://github.com/mrgsdev/AppCoda/assets/157994617/381c5374-7890-4a6b-b5f4-70c87f37db55)
 ##
+
+
+<a name="20"></a>
+# [Adaptive Collection Views Using UITraitCollection and Compositional Layout](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2020)  
+![Chapter 20](https://github.com/mrgsdev/AppCoda/assets/157994617/60629eb3-1a7c-46b2-8874-e19b9f29f6ad)
+##
+
+
+
