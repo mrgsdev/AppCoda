@@ -112,7 +112,7 @@
 ![Chapter 16](https://github.com/mrgsdev/AppCoda/assets/157994617/381c5374-7890-4a6b-b5f4-70c87f37db55)
 ##
 <a name="17"></a>
-# [Working with Custom Fonts and Dynamic Type](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2017)  
+# [Working with AirDrop, UIActivityViewController and Uniform Type Identifiers](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2017)  
 
 ##
 
