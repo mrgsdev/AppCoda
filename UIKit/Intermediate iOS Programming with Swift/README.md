@@ -4,7 +4,7 @@
  
  - [x] **Completed**
  - [ ] ***Incomplete***
- 
+
   ### Contents  
 - [x] [Chapter 1: Building Adaptive User Interfaces](#1)  
 - [x] [Chapter 2: Creating Table View Sections and Index list with Diffable Data Source](#2)
@@ -23,6 +23,7 @@
 - [x] [Chapter 15: Displaying Banner Ads using Google AdMob](#15)
 - [x] [Chapter 16: Working with Custom Fonts and Dynamic Type](#16)
 - [x] [Chapter 17: Working with AirDrop, UIActivityViewController and Uniform Type Identifiers](#17)
+- [x] [Chapter 18: Building Grid Layouts Using Collection Views and Diffable Data Source](#18)
 - [x] [Chapter 20: Adaptive Collection Views Using UITraitCollection and Compositional Layout](#20)
 
 <a name="1"></a>
@@ -113,10 +114,11 @@
 ##
 <a name="17"></a>
 # [Working with AirDrop, UIActivityViewController and Uniform Type Identifiers](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2017)  
-
 ##
-
-
+<a name="18"></a>
+# [Building Grid Layouts Using Collection Views and Diffable Data Source](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2018)  
+![Chapter 18](https://github.com/mrgsdev/AppCoda/assets/157994617/a2bdb61e-8353-439d-a3e8-94a3a545662d)
+##
 <a name="20"></a>
 # [Adaptive Collection Views Using UITraitCollection and Compositional Layout](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2020)  
 ![Chapter 20](https://github.com/mrgsdev/AppCoda/assets/157994617/60629eb3-1a7c-46b2-8874-e19b9f29f6ad)
