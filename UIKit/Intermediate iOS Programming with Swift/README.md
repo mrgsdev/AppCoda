@@ -1,5 +1,3 @@
-
-
 # Intermediate iOS Programming with Swift
  
  - [x] **Completed**
@@ -24,6 +22,7 @@
 - [x] [Chapter 16: Working with Custom Fonts and Dynamic Type](#16)
 - [x] [Chapter 17: Working with AirDrop, UIActivityViewController and Uniform Type Identifiers](#17)
 - [x] [Chapter 18: Building Grid Layouts Using Collection Views and Diffable Data Source](#18)
+- [x] [Chapter 19: Interacting with Collection Views](#19)
 - [x] [Chapter 20: Adaptive Collection Views Using UITraitCollection and Compositional Layout](#20)
 
 <a name="1"></a>
@@ -119,6 +118,10 @@
 # [Building Grid Layouts Using Collection Views and Diffable Data Source](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2018)  
 ![Chapter 18](https://github.com/mrgsdev/AppCoda/assets/157994617/a2bdb61e-8353-439d-a3e8-94a3a545662d)
 ##
+<a name="19"></a>
+# [Interacting with Collection Views](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2019)   
+![Chapter 19](https://github.com/mrgsdev/AppCoda/assets/157994617/c4aee866-8a18-4cd6-a1fb-00ad93380f28)
+## 
 <a name="20"></a>
 # [Adaptive Collection Views Using UITraitCollection and Compositional Layout](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2020)  
 ![Chapter 20](https://github.com/mrgsdev/AppCoda/assets/157994617/60629eb3-1a7c-46b2-8874-e19b9f29f6ad)
