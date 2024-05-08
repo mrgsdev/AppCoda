@@ -24,7 +24,7 @@
 - [x] [Chapter 18: Building Grid Layouts Using Collection Views and Diffable Data Source](#18)
 - [x] [Chapter 19: Interacting with Collection Views](#19)
 - [x] [Chapter 20: Adaptive Collection Views Using UITraitCollection and Compositional Layout](#20)
-
+- [x] [Chapter 25: Self Sizing Cells and Dynamic Type](#25)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Adaptive%20User%20Interfaces)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -125,6 +125,10 @@
 <a name="20"></a>
 # [Adaptive Collection Views Using UITraitCollection and Compositional Layout](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2020)  
 ![Chapter 20](https://github.com/mrgsdev/AppCoda/assets/157994617/60629eb3-1a7c-46b2-8874-e19b9f29f6ad)
+##
+<a name="25"></a>
+# [Self Sizing Cells and Dynamic Type](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2025)   
+![Chapter 25](https://github.com/mrgsdev/AppCoda/assets/157994617/07cb6042-298b-40cd-b0c1-47c4b689c828)
 ##
 
 
