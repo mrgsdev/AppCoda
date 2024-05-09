@@ -24,6 +24,7 @@
 - [x] [Chapter 18: Building Grid Layouts Using Collection Views and Diffable Data Source](#18)
 - [x] [Chapter 19: Interacting with Collection Views](#19)
 - [x] [Chapter 20: Adaptive Collection Views Using UITraitCollection and Compositional Layout](#20)
+- [x] [Chapter 23: View Controller Transitions and Animations](#23)
 - [x] [Chapter 25: Self Sizing Cells and Dynamic Type](#25)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
@@ -126,6 +127,22 @@
 # [Adaptive Collection Views Using UITraitCollection and Compositional Layout](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2020)  
 ![Chapter 20](https://github.com/mrgsdev/AppCoda/assets/157994617/60629eb3-1a7c-46b2-8874-e19b9f29f6ad)
 ##
+<a name="23"></a>
+# [View Controller Transitions and Animations](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2023)
+![Chapter 23](https://github.com/mrgsdev/AppCoda/assets/157994617/0c8f9c08-9fdf-4049-b602-ee56637a3f74)
+
+<details>
+<summary><h2>Video</h2></summary>
+ <div  align="center">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/55e55dff-26b2-43b5-9f9c-15902db43b50" alt="First" width="200">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/e9fe1752-1c27-4bc8-9abe-8b55e38da4d1" alt="Second" width="200">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/97e749b8-4991-435f-aeac-ab7fd62885ed" alt="Third" width="200">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/4768374f-edec-480f-816a-354186a7e6a7" alt="Four" width="200"> 
+</div>  
+</details>
+
+##
+
 <a name="25"></a>
 # [Self Sizing Cells and Dynamic Type](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2025)   
 ![Chapter 25](https://github.com/mrgsdev/AppCoda/assets/157994617/07cb6042-298b-40cd-b0c1-47c4b689c828)
