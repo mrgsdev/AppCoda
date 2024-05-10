@@ -24,6 +24,7 @@
 - [x] [Chapter 18: Building Grid Layouts Using Collection Views and Diffable Data Source](#18)
 - [x] [Chapter 19: Interacting with Collection Views](#19)
 - [x] [Chapter 20: Adaptive Collection Views Using UITraitCollection and Compositional Layout](#20)
+- [x] [Chapter 21: Building a Weather Widget Using WidgetKit](#21)
 - [x] [Chapter 23: View Controller Transitions and Animations](#23)
 - [x] [Chapter 25: Self Sizing Cells and Dynamic Type](#25)
 <a name="1"></a>
@@ -127,6 +128,19 @@
 # [Adaptive Collection Views Using UITraitCollection and Compositional Layout](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2020)  
 ![Chapter 20](https://github.com/mrgsdev/AppCoda/assets/157994617/60629eb3-1a7c-46b2-8874-e19b9f29f6ad)
 ##
+<a name="21"></a>
+# [Building a Weather Widget Using WidgetKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2021)  
+![Chapter 21](https://github.com/mrgsdev/AppCoda/assets/157994617/05f4c605-d886-4b83-b1ce-4312b6f3a873)
+
+<details>
+<summary><h2>Video</h2></summary>
+ <div  align="center">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/d9ef0377-ac76-400e-bed5-93a6347fb2b2" alt="chapter21" width="250"> 
+</div>  
+</details>
+
+## 
+
 <a name="23"></a>
 # [View Controller Transitions and Animations](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2023)
 ![Chapter 23](https://github.com/mrgsdev/AppCoda/assets/157994617/0c8f9c08-9fdf-4049-b602-ee56637a3f74)
