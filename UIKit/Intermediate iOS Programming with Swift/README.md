@@ -1,4 +1,4 @@
-![Chapter 22](https://github.com/mrgsdev/AppCoda/assets/157994617/4f0d5e64-a5e6-47df-a063-e7feca49df94)# Intermediate iOS Programming with Swift
+## Intermediate iOS Programming with Swift
  
  - [x] **Completed**
  - [ ] ***Incomplete***
@@ -27,6 +27,7 @@
 - [x] [Chapter 21: Building a Weather Widget Using WidgetKit](#21)
 - [x] [Chapter 22: Using Objective-C Libraries to Build Slide Out Sidebar Menus](#22)
 - [x] [Chapter 23: View Controller Transitions and Animations](#23)
+- [x] [Chapter 24: Building a Slide Down Menu](#24)
 - [x] [Chapter 25: Self Sizing Cells and Dynamic Type](#25)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
@@ -169,6 +170,18 @@
     <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/e9fe1752-1c27-4bc8-9abe-8b55e38da4d1" alt="Second" width="200">
     <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/97e749b8-4991-435f-aeac-ab7fd62885ed" alt="Third" width="200">
     <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/4768374f-edec-480f-816a-354186a7e6a7" alt="Four" width="200"> 
+</div>  
+</details>
+
+##
+
+<a name="24"></a>
+# [Building a Slide Down Menu](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2024) 
+![CHAPTER 24](https://github.com/mrgsdev/AppCoda/assets/157994617/121c085d-4067-49a7-8995-495761847d4c)
+<details>
+<summary><h2>Video</h2></summary>
+ <div  align="center">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/3c70d7a2-dca7-4757-b0a1-43c31ab5c251" alt="chapter24" width="250">
 </div>  
 </details>
 
