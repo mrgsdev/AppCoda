@@ -29,6 +29,7 @@
 - [x] [Chapter 23: View Controller Transitions and Animations](#23)
 - [x] [Chapter 24: Building a Slide Down Menu](#24)
 - [x] [Chapter 25: Self Sizing Cells and Dynamic Type](#25)
+- [x] [Chapter 26: XML Parsing, RSS and Expandable Table View Cells](#26)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -192,5 +193,9 @@
 ![Chapter 25](https://github.com/mrgsdev/AppCoda/assets/157994617/07cb6042-298b-40cd-b0c1-47c4b689c828)
 ##
 
+<a name="26"></a>
+# [XML Parsing, RSS and Expandable Table View Cells](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2026)   
+![Chapter 26](https://github.com/mrgsdev/AppCoda/assets/157994617/46a4bba7-bacb-4972-9500-c72f843ce37d)
+##
 
 
