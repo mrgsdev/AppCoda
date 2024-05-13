@@ -118,6 +118,7 @@
 ##
 <a name="17"></a>
 # [Working with AirDrop, UIActivityViewController and Uniform Type Identifiers](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2017)  
+![Chapter 17](https://github.com/mrgsdev/AppCoda/assets/157994617/3c8e1323-9235-45f1-b9d6-9644520a1525)
 ##
 <a name="18"></a>
 # [Building Grid Layouts Using Collection Views and Diffable Data Source](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2018)  
