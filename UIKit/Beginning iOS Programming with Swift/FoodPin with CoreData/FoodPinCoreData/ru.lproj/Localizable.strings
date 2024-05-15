@@ -1,0 +1,51 @@
+/* No comment provided by engineer. */
+"CREATE YOUR OWN FOOD GUIDE" = "СОЗДАЙТЕ СВОЙ СОБСТВЕННЫЙ СПРАВОЧНИК ПО РЕСТОРАНАМ";
+
+/* No comment provided by engineer. */
+"Delete" = "Удалить";
+
+/* No comment provided by engineer. */
+"DISCOVER GREAT RESTAURANTS" = "ОТКРОЙТЕ ДЛЯ СЕБЯ ВЕЛИКОЛЕПНЫЕ РЕСТОРАНЫ";
+
+/* No comment provided by engineer. */
+"Dislike" = "Не нравится";
+
+/* No comment provided by engineer. */
+"Find restaurants shared by your friends and other foodies" = "Находите рестораны, о которых рассказывают ваши друзья и другие гурманы";
+
+/* No comment provided by engineer. */
+"Like" = "Нравится";
+
+/* No comment provided by engineer. */
+"Pin your favorite restaurants and create your own food guide" = "Закрепляйте свои любимые рестораны и создавайте собственный путеводитель по ресторанам";
+
+/* Rate us on App Store */
+"Rate us on App Store" = "Оцените нас в App Store\n";
+
+/* No comment provided by engineer. */
+"Search and locate your favourite restaurant on Maps" = "Поиск и определение местоположения любимого ресторана на Картах";
+
+/* No comment provided by engineer. */
+"Search restaurants..." = "Поиск ресторана";
+
+/* No comment provided by engineer. */
+"Share" = "Поделиться";
+
+/* No comment provided by engineer. */
+"SHOW YOU THE LOCATION" = "ПОКАЗАТЬ МЕСТОПОЛОЖЕНИЕ";
+
+/* No comment provided by engineer. */
+"NEXT" = "ДАЛЕЕ";
+ 
+/* No comment provided by engineer. */
+"GET STARTED" = "НАЧАТЬ";
+"Oops" = "УПС!";
+"We can't proceed because one of the fields is blank. Please note that all fields are required." = "Мы не можем продолжить, потому что одно из полей не заполнено. Обратите внимание, что все поля обязательны для заполнения.";
+"Camera" = "Сделать фото";
+"Photo library" = "Выбрать фото";
+"Cancel" = "Отмена";
+"Delete from favorites" = "Удалить из избранных";
+"Like as favorite" = "Добавить в избранные";
+"Restaurant Recommendation" = "Рекомендация по ресторанам";
+"Try new food today" = "Попробуйте новые блюда сегодня";
+"I recommend you to check out %@. The restaurant is one of your favorites. It is located at %@. Would you like to give it a try?" = "Я рекомендую вам проверить  %@. Ресторан является одним из ваших любимых. Он расположен по адресу  %@. Не хотите попробовать?";

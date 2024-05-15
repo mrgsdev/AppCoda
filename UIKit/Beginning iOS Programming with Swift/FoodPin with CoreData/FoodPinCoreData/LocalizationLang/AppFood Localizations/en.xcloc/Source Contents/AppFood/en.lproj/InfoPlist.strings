@@ -1,0 +1,4 @@
+/* Bundle name */
+"CFBundleName" = "AppFood";
+/* Privacy - Camera Usage Description */
+"NSCameraUsageDescription" = "You need to grant the app access to your camera in order to take photos.";

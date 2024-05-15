@@ -1,0 +1,18 @@
+/* Class = "UIButton"; configuration.title = "SKIP"; ObjectID = "0Dx-Mb-8hD"; */
+"0Dx-Mb-8hD.configuration.title" = "ПРОПУСТИТЬ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "0Dx-Mb-8hD"; */
+"0Dx-Mb-8hD.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "NEXT"; ObjectID = "EZy-HN-mx7"; */
+"EZy-HN-mx7.configuration.title" = "ДАЛЕЕ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "EZy-HN-mx7"; */
+"EZy-HN-mx7.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "HEADING"; ObjectID = "V1k-ZU-R7r"; */
+"V1k-ZU-R7r.text" = "HEADING";
+
+/* Class = "UILabel"; text = "Subheading"; ObjectID = "Z3b-Xx-62W"; */
+"Z3b-Xx-62W.text" = "Subheading";
+
