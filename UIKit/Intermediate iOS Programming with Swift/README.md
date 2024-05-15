@@ -30,7 +30,8 @@
 - [x] [Chapter 24: Building a Slide Down Menu](#24)
 - [x] [Chapter 25: Self Sizing Cells and Dynamic Type](#25)
 - [x] [Chapter 26: XML Parsing, RSS and Expandable Table View Cells](#26)
-- [ ] [Chapter 27: Applying a Blurred Background Using UIVisualEffect](#27)
+- [x] [Chapter 27: Applying a Blurred Background Using UIVisualEffect](#27)
+- [x] [Chapter 28: Using Touch ID and Face ID For Authentication](#28)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -204,3 +205,10 @@
 # [Applying a Blurred Background Using UIVisualEffect](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2027)   
 ![Chapter 27](https://github.com/mrgsdev/AppCoda/assets/157994617/8d62cf4a-3edd-416d-981c-2deedaf407b6)
 ##
+
+<a name="28"></a>
+# [Using Touch ID and Face ID For Authentication](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2028)   
+![Chapter 28](https://github.com/mrgsdev/AppCoda/assets/157994617/df6ae041-383b-4bf2-9af1-fb766fcaf492)
+##
+
+
