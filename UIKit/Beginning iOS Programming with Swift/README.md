@@ -2,7 +2,7 @@
 
 ## About
 - [UIKit](https://developer.apple.com/documentation/uikit)
-- [SwiftData](https://developer.apple.com/documentation/swiftdata)
+- [SwiftData](https://developer.apple.com/documentation/swiftdata) or [CoreData](https://developer.apple.com/documentation/coredata) 
 - [UITableViewDiffableDataSource](https://developer.apple.com/documentation/uikit/uitableviewdiffabledatasource)
 - [Storyboard](https://developer.apple.com/library/archive/documentation/General/Conceptual/Devpedia-CocoaApp/Storyboard.html)
 - [MapKit](https://developer.apple.com/documentation/mapkit/)
