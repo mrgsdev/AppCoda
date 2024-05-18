@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5j6-an-zWH">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Food Menu-->
+        <scene sceneID="7Qq-Og-Bwk">
+            <objects>
+                <tableViewController id="aTQ-9v-qLl" customClass="MenuTableViewController" customModule="CoreDataPreloadDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="22" sectionFooterHeight="22" id="AAq-Sn-FRb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="66" id="wRo-Wu-PHR" customClass="MenuTableViewCell" customModule="CoreDataPreloadDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="66"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wRo-Wu-PHR" id="Uiv-3n-cTN">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="66"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-XW-P13">
+                                            <rect key="frame" x="27" y="10.999999999999998" width="56" height="23.333333333333329"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="20"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Details" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpz-1H-KFH">
+                                            <rect key="frame" x="27" y="33.333333333333336" width="46" height="20.666666666666664"/>
+                                            <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                            <color key="textColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Price" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ppe-M3-h8S">
+                                            <rect key="frame" x="283" y="11" width="90" height="39"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="ZBn-OY-Rbq"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="28"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="qdV-XW-P13" firstAttribute="leading" secondItem="Uiv-3n-cTN" secondAttribute="leadingMargin" constant="7" id="1YB-xG-x5b"/>
+                                        <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="wpz-1H-KFH" secondAttribute="bottom" constant="1" id="2Hp-kN-Fcs"/>
+                                        <constraint firstItem="wpz-1H-KFH" firstAttribute="top" secondItem="qdV-XW-P13" secondAttribute="bottom" constant="-1" id="85j-C4-fsV"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="Ppe-M3-h8S" secondAttribute="trailing" id="Bca-oH-UdD"/>
+                                        <constraint firstItem="Ppe-M3-h8S" firstAttribute="top" secondItem="Uiv-3n-cTN" secondAttribute="topMargin" id="EBT-d9-OR5"/>
+                                        <constraint firstItem="qdV-XW-P13" firstAttribute="top" secondItem="Uiv-3n-cTN" secondAttribute="topMargin" id="FDQ-0d-mEB"/>
+                                        <constraint firstItem="Ppe-M3-h8S" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="wpz-1H-KFH" secondAttribute="trailing" constant="10" id="KdI-k8-8ad"/>
+                                        <constraint firstItem="wpz-1H-KFH" firstAttribute="leading" secondItem="Uiv-3n-cTN" secondAttribute="leadingMargin" constant="7" id="RyT-hJ-iuK"/>
+                                        <constraint firstItem="Ppe-M3-h8S" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="qdV-XW-P13" secondAttribute="trailing" constant="10" id="chl-dA-NfQ"/>
+                                        <constraint firstItem="Ppe-M3-h8S" firstAttribute="top" secondItem="qdV-XW-P13" secondAttribute="top" id="t8r-pe-RLH"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="detailLabel" destination="wpz-1H-KFH" id="H1C-dX-MQ3"/>
+                                    <outlet property="nameLabel" destination="qdV-XW-P13" id="9mY-a6-uYs"/>
+                                    <outlet property="priceLabel" destination="Ppe-M3-h8S" id="a7N-Vk-Y52"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="aTQ-9v-qLl" id="6JM-4w-OvE"/>
+                            <outlet property="delegate" destination="aTQ-9v-qLl" id="ii8-gi-2hF"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Food Menu" id="OxO-hk-S6b"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tKv-tM-LLU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="953" y="209"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wW2-QS-OUV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5j6-an-zWH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3mL-h9-JuK">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="aTQ-9v-qLl" kind="relationship" relationship="rootViewController" id="IRm-Me-GlP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8fU-cN-4Bn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="209"/>
+        </scene>
+    </scenes>
+</document>
