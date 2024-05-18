@@ -34,6 +34,7 @@
 - [x] [Chapter 28: Using Touch ID and Face ID For Authentication](#28)
 - [x] [Chapter 29: Building a Carousel-Like User Interface with Paging Support](#29)
 - [x] [Chapter 30: Working with Parse as Mobile Backends](#30)
+- [x] [Chapter 31: Parsing CSV and Preloading a SQLite Database Using Core Data](#31)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -222,6 +223,14 @@
 # [Working with Parse as Mobile Backends](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2030)   
 ![Chapter 30](https://github.com/mrgsdev/AppCoda/assets/157994617/fe4cdd26-0bd5-48b2-8b42-5346149f7277)
 ##
+
+<a name="31"></a>
+# [Parsing CSV and Preloading a SQLite Database Using Core Data](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2031)   
+![Chapter 31](https://github.com/mrgsdev/AppCoda/assets/157994617/744b9f97-9b2c-4484-984a-b094531365b5)
+##
+
+
+
  
 
 
