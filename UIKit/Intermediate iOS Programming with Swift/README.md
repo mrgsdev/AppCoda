@@ -35,6 +35,7 @@
 - [x] [Chapter 29: Building a Carousel-Like User Interface with Paging Support](#29)
 - [x] [Chapter 30: Working with Parse as Mobile Backends](#30)
 - [x] [Chapter 31: Parsing CSV and Preloading a SQLite Database Using Core Data](#31)
+- [x] [Chapter 32: Gesture Recognizers, Multiple Annotations with Polylines and Routes](#32) 
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -230,6 +231,20 @@
 ##
 
 
+<a name="32"></a>
+# [Gesture Recognizers, Multiple Annotations with Polylines and Routes](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2032)   
+![Chapter 32](https://github.com/mrgsdev/AppCoda/assets/157994617/e9ee9f50-bc1e-40a3-b2c6-2b1122033ca5)
+
+<details>
+<summary><h2>Video</h2></summary>
+ <div  align="center">
+        <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/abd35b46-0d00-42cc-8028-f80b1c8bcdcd" alt="321" width="250"> 
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/75be5a14-319c-4221-827e-c75e6c0d9d86" alt="322" width="250">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/2ab3102f-b795-4560-9c2e-b1858b64f9f1" alt="323" width="250"> 
+</div>  
+</details>
+
+##
 
  
 
