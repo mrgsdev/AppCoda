@@ -35,7 +35,8 @@
 - [x] [Chapter 29: Building a Carousel-Like User Interface with Paging Support](#29)
 - [x] [Chapter 30: Working with Parse as Mobile Backends](#30)
 - [x] [Chapter 31: Parsing CSV and Preloading a SQLite Database Using Core Data](#31)
-- [x] [Chapter 32: Gesture Recognizers, Multiple Annotations with Polylines and Routes](#32) 
+- [x] [Chapter 32: Gesture Recognizers, Multiple Annotations with Polylines and Routes](#32)
+- [x] [Chapter 33: Using CocoaPods in Swift Projects](#33)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -246,7 +247,13 @@
 
 ##
 
- 
+<a name="33"></a>
+# [Using CocoaPods in Swift Projects](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2033)   
+ ![Chapter 33](https://github.com/mrgsdev/AppCoda/assets/157994617/5105ce9a-ea03-4239-81e3-3b706989a714)
+
+##
+
+
 
 
 
