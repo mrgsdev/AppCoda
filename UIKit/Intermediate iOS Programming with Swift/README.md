@@ -38,6 +38,7 @@
 - [x] [Chapter 32: Gesture Recognizers, Multiple Annotations with Polylines and Routes](#32)
 - [x] [Chapter 33: Using CocoaPods in Swift Projects](#33)
 - [x] [Chapter 34: Building a Simple Sticker App](#34)
+- [x] [Chapter 35: Building iMessage Apps Using Messages Framework](#35)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -256,6 +257,11 @@
 <a name="34"></a>
 # [Building a Simple Sticker App](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2034)   
  ![Chapter 34](https://github.com/mrgsdev/AppCoda/assets/157994617/8e59483b-e89f-49c0-a496-5a23a694879b)
+##
+
+<a name="35"></a>
+# [Building iMessage Apps Using Messages Framework](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2035)   
+![Chapter 35](https://github.com/mrgsdev/AppCoda/assets/157994617/3476ebc8-99e7-4008-bf7d-a27c87db419f)
 ##
 
 
