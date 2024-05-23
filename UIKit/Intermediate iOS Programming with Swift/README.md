@@ -39,6 +39,7 @@
 - [x] [Chapter 33: Using CocoaPods in Swift Projects](#33)
 - [x] [Chapter 34: Building a Simple Sticker App](#34)
 - [x] [Chapter 35: Building iMessage Apps Using Messages Framework](#35)
+- [x] [Chapter 36: Building Custom UI Components Using IBDesignable and IBInspectable](#36)
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -262,6 +263,11 @@
 <a name="35"></a>
 # [Building iMessage Apps Using Messages Framework](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2035)   
 ![Chapter 35](https://github.com/mrgsdev/AppCoda/assets/157994617/3476ebc8-99e7-4008-bf7d-a27c87db419f)
+##
+ 
+<a name="36"></a>
+# [Building Custom UI Components Using IBDesignable and IBInspectable](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2036) 
+![Chapter 36](https://github.com/mrgsdev/AppCoda/assets/157994617/68771336-1cbf-46df-af43-9eabbc061800)
 ##
 
 
