@@ -41,6 +41,8 @@
 - [x] [Chapter 35: Building iMessage Apps Using Messages Framework](#35)
 - [x] [Chapter 36: Building Custom UI Components Using IBDesignable and IBInspectable](#36)
 - [x] [Chapter 37: Using Firebase for User Authentication](#37)
+- [x] [Chapter 38: Google and Facebook Authentication Using Firebase](#38)
+
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
 ![chapter 1](https://github.com/mrgsdev/AppCoda/assets/157994617/7adcbfad-bb13-4309-8057-08492eb7a96d)
@@ -275,6 +277,13 @@
 # [Using Firebase for User Authentication](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2037)  
 ![Chapter 37](https://github.com/mrgsdev/AppCoda/assets/157994617/e775ce9e-9a05-4284-9102-483cac3fbc27)
 ##
+
+<a name="38"></a>
+# [Google and Facebook Authentication Using Firebase](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2038) 
+![Chapter 38](https://github.com/mrgsdev/AppCoda/assets/157994617/bccb3781-1280-4cfe-b3dd-c5708c52ca1d)
+##
+
+
 
 
 
