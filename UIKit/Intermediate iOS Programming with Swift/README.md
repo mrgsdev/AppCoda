@@ -42,6 +42,7 @@
 - [x] [Chapter 36: Building Custom UI Components Using IBDesignable and IBInspectable](#36)
 - [x] [Chapter 37: Using Firebase for User Authentication](#37)
 - [x] [Chapter 38: Google and Facebook Authentication Using Firebase](#38)
+- [x] [Chapter 39: Using Firebase Database and Storage](#39)
 
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
@@ -283,6 +284,10 @@
 ![Chapter 38](https://github.com/mrgsdev/AppCoda/assets/157994617/bccb3781-1280-4cfe-b3dd-c5708c52ca1d)
 ##
 
+<a name="39"></a>
+# [Using Firebase Database and Storage](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2039) 
+![Chapter 39](https://github.com/mrgsdev/AppCoda/assets/157994617/3ef40c9b-f77b-44de-bdf7-e33a4a575245)
+## 
 
 
 
