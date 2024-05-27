@@ -43,6 +43,12 @@
 - [x] [Chapter 37: Using Firebase for User Authentication](#37)
 - [x] [Chapter 38: Google and Facebook Authentication Using Firebase](#38)
 - [x] [Chapter 39: Using Firebase Database and Storage](#39)
+- [x] [Chapter 40: Building a Real-time Image Recognition App Using Core ML](#40)
+- [ ] [Chapter 41: Building AR Apps with ARKit and SpriteKit](#41)
+- [ ] [Chapter 42: Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](#42)
+- [ ] [Chapter 43: Using Create ML to Train Your Own Machine Learning Model for Image Recognition](#43)
+- [ ] [Chapter 44: Building a Sentiment Classifier Using Create ML to Classify User Reviews](#44)
+- [ ] [Chapter 45: Working with Image Tracking in ARKit](#45)
 
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
@@ -289,8 +295,34 @@
 ![Chapter 39](https://github.com/mrgsdev/AppCoda/assets/157994617/3ef40c9b-f77b-44de-bdf7-e33a4a575245)
 ## 
 
+<a name="40"></a>
+# [Building a Real-time Image Recognition App Using Core ML](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2040) 
+![Chapter 40](https://github.com/mrgsdev/AppCoda/assets/157994617/5c9b66bf-5703-41a2-8a97-3babd6dadf8a)
+## 
 
+<a name="41"></a>
+# [Building AR Apps with ARKit and SpriteKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2041) 
 
+## 
 
+<a name="42"></a>
+# [Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2042) 
+
+## 
+
+<a name="43"></a>
+# [Using Create ML to Train Your Own Machine Learning Model for Image Recognition](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2043) 
+
+## 
+
+<a name="44"></a>
+# [Building a Sentiment Classifier Using Create ML to Classify User Reviews](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2044) 
+
+## 
+
+<a name="45"></a>
+# [Working with Image Tracking in ARKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2045) 
+
+## 
 
 
