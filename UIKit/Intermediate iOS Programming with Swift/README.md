@@ -44,7 +44,7 @@
 - [x] [Chapter 38: Google and Facebook Authentication Using Firebase](#38)
 - [x] [Chapter 39: Using Firebase Database and Storage](#39)
 - [x] [Chapter 40: Building a Real-time Image Recognition App Using Core ML](#40)
-- [ ] [Chapter 41: Building AR Apps with ARKit and SpriteKit](#41)
+- [x] [Chapter 41: Building AR Apps with ARKit and SpriteKit](#41)
 - [ ] [Chapter 42: Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](#42)
 - [ ] [Chapter 43: Using Create ML to Train Your Own Machine Learning Model for Image Recognition](#43)
 - [ ] [Chapter 44: Building a Sentiment Classifier Using Create ML to Classify User Reviews](#44)
@@ -302,7 +302,7 @@
 
 <a name="41"></a>
 # [Building AR Apps with ARKit and SpriteKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2041) 
-
+![Chapter 41](https://github.com/mrgsdev/AppCoda/assets/157994617/e9737dfc-8ac2-466a-8a8b-86c04e877370)
 ## 
 
 <a name="42"></a>
