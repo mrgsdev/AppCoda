@@ -3,14 +3,19 @@
 >
 > [Wiki](https://github.com/mrgsdev/AppCoda/wiki)
 
- - [x] **Completed**
- - [ ] **Incomplete**
-
 ### Contents  
 >- [x] [UIKit](#1)
 >- [x] [SwiftUI](#2) 
 
+ 
+
 
 <a name="1"></a>
-## [UIKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit)
-![Version 01 (1)](https://github.com/mrgsdev/AppCoda/assets/157994617/e620c578-5a7d-4448-9c30-0bd48b244dc2) 
+<a href="https://github.com/mrgsdev/AppCoda/tree/main/UIKit">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/9e3ab199-86e3-405c-85ac-34cdc7a3ad97"/>
+</a>
+
+<a name="2"></a>
+<a href="https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/07df6dab-de6d-420c-85aa-db0523f0f87e"/>
+</a>
