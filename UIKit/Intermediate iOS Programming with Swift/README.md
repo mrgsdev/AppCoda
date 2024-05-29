@@ -45,7 +45,7 @@
 - [x] [Chapter 39: Using Firebase Database and Storage](#39)
 - [x] [Chapter 40: Building a Real-time Image Recognition App Using Core ML](#40)
 - [x] [Chapter 41: Building AR Apps with ARKit and SpriteKit](#41)
-- [ ] [Chapter 42: Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](#42)
+- [x] [Chapter 42: Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](#42)
 - [ ] [Chapter 43: Using Create ML to Train Your Own Machine Learning Model for Image Recognition](#43)
 - [ ] [Chapter 44: Building a Sentiment Classifier Using Create ML to Classify User Reviews](#44)
 - [ ] [Chapter 45: Working with Image Tracking in ARKit](#45)
@@ -307,7 +307,7 @@
 
 <a name="42"></a>
 # [Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2042) 
-
+![Chapter 42](https://github.com/mrgsdev/AppCoda/assets/157994617/03d7d01b-9826-4d51-a6b7-33a0fc347353)
 ## 
 
 <a name="43"></a>
