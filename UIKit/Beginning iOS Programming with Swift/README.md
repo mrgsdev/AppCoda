@@ -1,3 +1,7 @@
+<div  align="center">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/8d1997f5-7744-41a8-a704-acb1c445fcde" alt="First" width="500">
+</div>
+
 # FoodPin
 
 ## About
