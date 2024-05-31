@@ -1,0 +1,9 @@
+{
+  "MLModelVersionStringKey" : "--",
+  "MLModelDescriptionKey" : "A trained model to classify review sentiment",
+  "MLModelCreatorDefinedKey" : {
+    "com.apple.createml.version" : "13.1.0"
+  },
+  "MLModelAuthorKey" : "mrgsdev",
+  "MLModelLicenseKey" : "--"
+}
