@@ -49,7 +49,7 @@
 - [x] [Chapter 41: Building AR Apps with ARKit and SpriteKit](#41)
 - [x] [Chapter 42: Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](#42)
 - [x] [Chapter 43: Using Create ML to Train Your Own Machine Learning Model for Image Recognition](#43)
-- [ ] [Chapter 44: Building a Sentiment Classifier Using Create ML to Classify User Reviews](#44)
+- [х] [Chapter 44: Building a Sentiment Classifier Using Create ML to Classify User Reviews](#44)
 - [ ] [Chapter 45: Working with Image Tracking in ARKit](#45)
 
 <a name="1"></a>
@@ -319,11 +319,12 @@
 
 <a name="44"></a>
 # [Building a Sentiment Classifier Using Create ML to Classify User Reviews](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2044) 
-
+![Chapter 44 Building a Sentiment Classifier Using Create ML to Classify User Reviews](https://github.com/mrgsdev/AppCoda/assets/157994617/97c4a527-3344-4e2c-b02d-b28dc900fdc1)
 ## 
 
 <a name="45"></a>
 # [Working with Image Tracking in ARKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2045) 
+
 
 ## 
 
