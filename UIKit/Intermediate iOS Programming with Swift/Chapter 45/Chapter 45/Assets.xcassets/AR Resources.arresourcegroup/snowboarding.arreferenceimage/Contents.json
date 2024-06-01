@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "snowboarding.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "width" : 9
+  }
+}
