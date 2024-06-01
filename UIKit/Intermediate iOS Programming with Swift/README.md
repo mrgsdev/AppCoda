@@ -10,7 +10,7 @@
 - [x] [Chapter 2: Creating Table View Sections and Index list with Diffable Data Source](#2)
 - [x] [Chapter 3: Animating Table View Cells](#3)
 - [x] [Chapter 4: Working with JSON and Codable in Swift](#4)
-- [ ] Chapter 5: X and Facebook SDK(Meta & X has been blocked in my country)
+- [x] [Chapter 5: How to Integrate the Twitter and Facebook SDK for Social Sharing](#5)
 - [x] [Chapter 6: Working with Email and Attachments](#6)
 - [x] [Chapter 7: Sending SMS and MMS Using MessageUI Framework](#7)
 - [x] [Chapter 8: How to Get Direction and Draw Route on Maps](#8)
@@ -69,6 +69,12 @@
 # [Working with JSON and Codable in Swift](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%204) 
 ![Chapter 4](https://github.com/mrgsdev/AppCoda/assets/157994617/cd15c0a9-a3e3-4828-8b87-5dd23bd70b5f)
 ##
+
+<a name="5"></a>
+# [How to Integrate the Twitter and Facebook SDK for Social Sharing](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%205) 
+![Chapter 5](https://github.com/mrgsdev/AppCoda/assets/157994617/195a2561-18ca-4433-b1d2-0994c2c00f10)
+##
+
 
 <a name="6"></a>
 # [Working with Email and Attachments](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%206) 
