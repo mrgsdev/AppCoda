@@ -49,8 +49,8 @@
 - [x] [Chapter 41: Building AR Apps with ARKit and SpriteKit](#41)
 - [x] [Chapter 42: Working with 3D Objects in Augmented Reality Using ARKit and SceneKit](#42)
 - [x] [Chapter 43: Using Create ML to Train Your Own Machine Learning Model for Image Recognition](#43)
-- [х] [Chapter 44: Building a Sentiment Classifier Using Create ML to Classify User Reviews](#44)
-- [ ] [Chapter 45: Working with Image Tracking in ARKit](#45)
+- [x] [Chapter 44: Building a Sentiment Classifier Using Create ML to Classify User Reviews](#44)
+- [x] [Chapter 45: Working with Image Tracking in ARKit](#45)
 
 <a name="1"></a>
 # [Building Adaptive User Interfaces](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%201)
@@ -324,7 +324,14 @@
 
 <a name="45"></a>
 # [Working with Image Tracking in ARKit](https://github.com/mrgsdev/AppCoda/tree/main/UIKit/Intermediate%20iOS%20Programming%20with%20Swift/Chapter%2045) 
+![Chapter 45 Working with Image Tracking in ARKit](https://github.com/mrgsdev/AppCoda/assets/157994617/ea14f774-1532-4dbc-892d-9662fb1a2779)
 
+<details>
+<summary><h2>Video</h2></summary>
+ <div  align="center">
+    <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/91a596e2-b336-4eee-abd6-fb389ea73cb6" alt="Chapter 45" width="250">
+</div>  
+</details>
 
 ## 
 
