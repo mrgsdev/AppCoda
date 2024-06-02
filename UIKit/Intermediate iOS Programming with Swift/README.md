@@ -1,7 +1,7 @@
 <div  align="center">
     <img src="https://github.com/mrgsdev/AppCoda/assets/157994617/efd4816a-7ac9-44a7-b26d-62329e3f0f32" alt="First" width="500">
-</div>  
-
+</div>   
+ 
  - [x] **Completed**
  - [ ] ***Incomplete***
 

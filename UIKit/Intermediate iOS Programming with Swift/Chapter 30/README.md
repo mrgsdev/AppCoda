@@ -1,7 +1,7 @@
 ## Screenshot
 ![Chapter 30](https://github.com/mrgsdev/AppCoda/assets/157994617/fe4cdd26-0bd5-48b2-8b42-5346149f7277)
 
-
+ 
 # Tutorial
 
 - [Creating Your App on Parse](#1)
