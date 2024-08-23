@@ -45,7 +45,7 @@ struct RestaurantListView: View {
 }
 
 #Preview("FullImageRow", traits: .sizeThatFitsLayout) {
-    FullImageRow(imageName: "cafedeadend", name: "Cafe Deadend", type: "Cafe", location: "Hong Kong")
+    FullImageRow(imageName: "cafedeadend", name: "Cafe Deadend", type: "Cafe", location: "Hong Kong", isFavorite: .constant(true))
 }
 
 struct BasicTextImageRow: View {
@@ -94,7 +94,7 @@ struct BasicTextImageRow: View {
                 self.showError.toggle()
             }
             
-            Button("Mark as favorite") {
+            Button(isFavorite ? "Remove from favorites" : "Mark as favorite") {
                 self.isFavorite.toggle()
             }
         }
@@ -113,6 +113,8 @@ struct FullImageRow: View {
     var type: String
     var location: String
     
+    @Binding var isFavorite: Bool
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Image(imageName)
@@ -121,20 +123,29 @@ struct FullImageRow: View {
                 .frame(height: 200)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
             
-            VStack(alignment: .leading) {
-                Text(name)
-                    .font(.system(.title2, design: .rounded))
+            HStack(alignment: .top) {
+                VStack(alignment: .leading) {
+                    Text(name)
+                        .font(.system(.title2, design: .rounded))
+                        
+                    Text(type)
+                        .font(.system(.body, design: .rounded))
                     
-                Text(type)
-                    .font(.system(.body, design: .rounded))
+                    Text(location)
+                        .font(.system(.subheadline, design: .rounded))
+                        .foregroundStyle(.gray)
+                }
                 
-                Text(location)
-                    .font(.system(.subheadline, design: .rounded))
-                    .foregroundStyle(.gray)
+                if isFavorite {
+                    Spacer()
+                    
+                    Image(systemName: "heart.fill")
+                        .foregroundStyle(.yellow)
+                }
+
             }
             .padding(.horizontal)
             .padding(.bottom)
         }
     }
 }
-
