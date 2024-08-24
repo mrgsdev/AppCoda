@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425387922C79D8C80008262E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425387912C79D8C80008262E /* Restaurant.swift */; };
 		42E250812C75ECC900DE8A84 /* FoodPinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E250802C75ECC900DE8A84 /* FoodPinApp.swift */; };
 		42E250832C75ECC900DE8A84 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E250822C75ECC900DE8A84 /* RestaurantListView.swift */; };
 		42E250852C75ECCA00DE8A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E250842C75ECCA00DE8A84 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		425387912C79D8C80008262E /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		42E2507D2C75ECC900DE8A84 /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E250802C75ECC900DE8A84 /* FoodPinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPinApp.swift; sourceTree = "<group>"; };
 		42E250822C75ECC900DE8A84 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		425387932C79D9B30008262E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				425387912C79D8C80008262E /* Restaurant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		425387942C79D9BA0008262E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				42E250822C75ECC900DE8A84 /* RestaurantListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		42E250742C75ECC900DE8A84 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				42E250802C75ECC900DE8A84 /* FoodPinApp.swift */,
-				42E250822C75ECC900DE8A84 /* RestaurantListView.swift */,
+				425387942C79D9BA0008262E /* View */,
+				425387932C79D9B30008262E /* Model */,
 				42E250842C75ECCA00DE8A84 /* Assets.xcassets */,
 				42E250862C75ECCA00DE8A84 /* Preview Content */,
 			);
@@ -139,6 +158,7 @@
 			files = (
 				42E250832C75ECC900DE8A84 /* RestaurantListView.swift in Sources */,
 				42E250812C75ECC900DE8A84 /* FoodPinApp.swift in Sources */,
+				425387922C79D8C80008262E /* Restaurant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
