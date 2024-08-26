@@ -16,6 +16,7 @@
 		42E250832C75ECC900DE8A84 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E250822C75ECC900DE8A84 /* RestaurantListView.swift */; };
 		42E250852C75ECCA00DE8A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E250842C75ECCA00DE8A84 /* Assets.xcassets */; };
 		42E250882C75ECCA00DE8A84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E250872C75ECCA00DE8A84 /* Preview Assets.xcassets */; };
+		42EB62852C7CBE9B00A6375D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB62842C7CBE9B00A6375D /* UIColor+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		42E250822C75ECC900DE8A84 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
 		42E250842C75ECCA00DE8A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E250872C75ECCA00DE8A84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42EB62842C7CBE9B00A6375D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		42E2507F2C75ECC900DE8A84 /* FoodPin */ = {
 			isa = PBXGroup;
 			children = (
+				42EB62832C7CBE9400A6375D /* Extensions */,
 				42657FF32C7B7ED900006981 /* Info.plist */,
 				42657FF42C7B7EEF00006981 /* Resources */,
 				42657FF02C7B7E9800006981 /* Fonts */,
@@ -114,6 +117,14 @@
 				42E250872C75ECCA00DE8A84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		42EB62832C7CBE9400A6375D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42EB62842C7CBE9B00A6375D /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E250832C75ECC900DE8A84 /* RestaurantListView.swift in Sources */,
+				42EB62852C7CBE9B00A6375D /* UIColor+Ext.swift in Sources */,
 				42657FF62C7B7F2C00006981 /* RestaurantDetailView.swift in Sources */,
 				425387962C79DAE10008262E /* ActivityView.swift in Sources */,
 				42E250812C75ECC900DE8A84 /* FoodPinApp.swift in Sources */,
