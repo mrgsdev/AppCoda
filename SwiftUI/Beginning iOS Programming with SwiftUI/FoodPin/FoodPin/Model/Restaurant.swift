@@ -15,6 +15,24 @@ struct Restaurant {
     var image: String
     var isFavorite: Bool
     
+    enum Rating: String, CaseIterable {
+        case awesome
+        case good
+        case okay
+        case bad
+        case terrible
+
+        var image: String {
+            switch self {
+            case .awesome: return "love"
+            case .good: return "cool"
+            case .okay: return "happy"
+            case .bad: return "sad"
+            case .terrible: return "angry"
+            }
+        }
+    }
+    
     init(name: String, type: String, location: String, phone: String, description: String, image: String, isFavorite: Bool = false) {
         self.name = name
         self.type = type

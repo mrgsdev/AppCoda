@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420FCE782C7FB9F500E54F3A /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FCE772C7FB9F500E54F3A /* ReviewView.swift */; };
 		425387922C79D8C80008262E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425387912C79D8C80008262E /* Restaurant.swift */; };
 		425387962C79DAE10008262E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425387952C79DAE10008262E /* ActivityView.swift */; };
 		42657FF12C7B7E9800006981 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42657FEE2C7B7E9800006981 /* Nunito-Bold.ttf */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		420FCE772C7FB9F500E54F3A /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		425387912C79D8C80008262E /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		425387952C79DAE10008262E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		42657FEE2C7B7E9800006981 /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				425387952C79DAE10008262E /* ActivityView.swift */,
 				42657FF52C7B7F2C00006981 /* RestaurantDetailView.swift */,
 				42FDD7F52C7F4939004382FE /* MapView.swift */,
+				420FCE772C7FB9F500E54F3A /* ReviewView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420FCE782C7FB9F500E54F3A /* ReviewView.swift in Sources */,
 				42FDD7F62C7F4939004382FE /* MapView.swift in Sources */,
 				42E250832C75ECC900DE8A84 /* RestaurantListView.swift in Sources */,
 				42EB62852C7CBE9B00A6375D /* UIColor+Ext.swift in Sources */,

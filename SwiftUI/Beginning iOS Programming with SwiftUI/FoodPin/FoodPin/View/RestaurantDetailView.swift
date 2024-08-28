@@ -10,6 +10,8 @@ import SwiftUI
 struct RestaurantDetailView: View {
     @Environment(\.dismiss) var dismiss
     
+    @State private var showReview = false
+    
     var restaurant: Restaurant
     
     var body: some View {
@@ -78,6 +80,20 @@ struct RestaurantDetailView: View {
                         .clipShape(RoundedRectangle(cornerRadius: 20))
                         .padding()
                 }
+                
+                Button {
+                    self.showReview.toggle()
+                } label: {
+                    Text("Rate it")
+                        .font(.system(.headline, design: .rounded))
+                        .frame(minWidth: 0, maxWidth: .infinity)
+                }
+                .tint(Color("NavigationBarTitle"))
+                .buttonStyle(.borderedProminent)
+                .buttonBorderShape(.roundedRectangle(radius: 25))
+                .controlSize(.large)
+                .padding(.horizontal)
+                .padding(.bottom, 20)
                  
             }
         }
@@ -92,15 +108,32 @@ struct RestaurantDetailView: View {
             }
         }
         .ignoresSafeArea()
+        .overlay(
+            self.showReview ?
+                ZStack {
+                    ReviewView(isDisplayed: $showReview, restaurant: restaurant)
+                }
+                
+            : nil
+        )
+        .toolbar(self.showReview ? .hidden : .visible)
         .toolbarBackground(.hidden, for: .navigationBar)
     }
 }
 
 #Preview {
     NavigationStack {
-        RestaurantDetailView(restaurant: Restaurant(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: true))
-        
-            .toolbarBackground(.hidden, for: .navigationBar)
+        RestaurantDetailView(
+            restaurant: Restaurant(
+                name: "Cafe Deadend",
+                type: "Coffee & Tea Shop",
+                location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong",
+                phone: "232-923423",
+                description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.",
+                image: "cafedeadend",
+                isFavorite: true
+            )
+        )
     }
     .tint(.white)
 }
