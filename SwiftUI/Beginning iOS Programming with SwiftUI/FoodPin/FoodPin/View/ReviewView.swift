@@ -60,6 +60,10 @@ struct ReviewView: View {
                     .opacity(showRatings ? 1.0 : 0)
                     .offset(x: showRatings ? 0 : 1000)
                     .animation(.easeOut.delay(Double(Restaurant.Rating.allCases.firstIndex(of: rating)!) * 0.05), value: showRatings)
+                    .onTapGesture {
+                        self.restaurant.rating = rating
+                        self.isDisplayed = false
+                    }
                 }
                 
             }
@@ -71,17 +75,6 @@ struct ReviewView: View {
 }
 
 #Preview {
-    ReviewView(
-        isDisplayed: .constant(true),
-        restaurant: Restaurant(
-            name: "Cafe Deadend",
-            type: "Coffee & Tea Shop",
-            location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong",
-            phone: "232-923423",
-            description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.",
-            image: "cafedeadend",
-            isFavorite: true
-        )
-    )
+    ReviewView(isDisplayed: .constant(true), restaurant: Restaurant(name: "Cafe Deadend", type: "Coffee & Tea Shop", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "232-923423", description: "Searching for great breakfast eateries and coffee? This place is for you. We open at 6:30 every morning, and close at 9 PM. We offer espresso and espresso based drink, such as capuccino, cafe latte, piccolo and many more. Come over and enjoy a great meal.", image: "cafedeadend", isFavorite: true))
 }
 
