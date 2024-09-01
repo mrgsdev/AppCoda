@@ -13,7 +13,9 @@ struct FoodPinApp: App {
         WindowGroup {
             RestaurantListView()
         }
+        .modelContainer(for: Restaurant.self)
     }
+    
     
     init() {
         let navBarAppearance = UINavigationBarAppearance()
