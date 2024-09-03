@@ -16,6 +16,7 @@
 		428D44CE2C84A07D00748E67 /* RestaurantFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428D44CD2C84A07D00748E67 /* RestaurantFormViewModel.swift */; };
 		42B839492C82E5D8001F8AB3 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B839482C82E5D8001F8AB3 /* ImagePicker.swift */; };
 		42B8394D2C82E6B0001F8AB3 /* NewRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B8394C2C82E6B0001F8AB3 /* NewRestaurantView.swift */; };
+		42C5DCBB2C870D04002B232C /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C5DCBA2C870D04002B232C /* TutorialView.swift */; };
 		42E250812C75ECC900DE8A84 /* FoodPinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E250802C75ECC900DE8A84 /* FoodPinApp.swift */; };
 		42E250832C75ECC900DE8A84 /* RestaurantListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E250822C75ECC900DE8A84 /* RestaurantListView.swift */; };
 		42E250852C75ECCA00DE8A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E250842C75ECCA00DE8A84 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 		428D44CD2C84A07D00748E67 /* RestaurantFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantFormViewModel.swift; sourceTree = "<group>"; };
 		42B839482C82E5D8001F8AB3 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		42B8394C2C82E6B0001F8AB3 /* NewRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantView.swift; sourceTree = "<group>"; };
+		42C5DCBA2C870D04002B232C /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
 		42E2507D2C75ECC900DE8A84 /* FoodPin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E250802C75ECC900DE8A84 /* FoodPinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPinApp.swift; sourceTree = "<group>"; };
 		42E250822C75ECC900DE8A84 /* RestaurantListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				42657FF52C7B7F2C00006981 /* RestaurantDetailView.swift */,
 				42FDD7F52C7F4939004382FE /* MapView.swift */,
 				420FCE772C7FB9F500E54F3A /* ReviewView.swift */,
+				42C5DCBA2C870D04002B232C /* TutorialView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 				42EB62852C7CBE9B00A6375D /* UIColor+Ext.swift in Sources */,
 				42657FF62C7B7F2C00006981 /* RestaurantDetailView.swift in Sources */,
 				428D44CE2C84A07D00748E67 /* RestaurantFormViewModel.swift in Sources */,
+				42C5DCBB2C870D04002B232C /* TutorialView.swift in Sources */,
 				425387962C79DAE10008262E /* ActivityView.swift in Sources */,
 				42E250812C75ECC900DE8A84 /* FoodPinApp.swift in Sources */,
 				425387922C79D8C80008262E /* Restaurant.swift in Sources */,
