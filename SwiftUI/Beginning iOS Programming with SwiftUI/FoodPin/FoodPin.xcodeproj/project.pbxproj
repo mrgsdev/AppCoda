@@ -22,6 +22,7 @@
 		42E250852C75ECCA00DE8A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E250842C75ECCA00DE8A84 /* Assets.xcassets */; };
 		42E250882C75ECCA00DE8A84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E250872C75ECCA00DE8A84 /* Preview Assets.xcassets */; };
 		42EB62852C7CBE9B00A6375D /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EB62842C7CBE9B00A6375D /* UIColor+Ext.swift */; };
+		42EC9D0F2C8794B30041BEA7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EC9D0E2C8794B30041BEA7 /* MainView.swift */; };
 		42FDD7F62C7F4939004382FE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDD7F52C7F4939004382FE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		42E250842C75ECCA00DE8A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42E250872C75ECCA00DE8A84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		42EB62842C7CBE9B00A6375D /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		42EC9D0E2C8794B30041BEA7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		42FDD7F52C7F4939004382FE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +77,7 @@
 				42FDD7F52C7F4939004382FE /* MapView.swift */,
 				420FCE772C7FB9F500E54F3A /* ReviewView.swift */,
 				42C5DCBA2C870D04002B232C /* TutorialView.swift */,
+				42EC9D0E2C8794B30041BEA7 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B8394D2C82E6B0001F8AB3 /* NewRestaurantView.swift in Sources */,
+				42EC9D0F2C8794B30041BEA7 /* MainView.swift in Sources */,
 				420FCE782C7FB9F500E54F3A /* ReviewView.swift in Sources */,
 				42FDD7F62C7F4939004382FE /* MapView.swift in Sources */,
 				42E250832C75ECC900DE8A84 /* RestaurantListView.swift in Sources */,

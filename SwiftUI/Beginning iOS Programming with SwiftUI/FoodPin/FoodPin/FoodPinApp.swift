@@ -11,13 +11,14 @@ import SwiftUI
 struct FoodPinApp: App {
     var body: some Scene {
         WindowGroup {
-            TutorialView()
+            MainView()
         }
         .modelContainer(for: Restaurant.self)
     }
     
     
     init() {
+        
         let navBarAppearance = UINavigationBarAppearance()
         navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor(named: "NavigationBarTitle") ?? UIColor.systemRed, .font: UIFont(name: "ArialRoundedMTBold", size: 35)!]
         navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor(named: "NavigationBarTitle") ?? UIColor.systemRed, .font: UIFont(name: "ArialRoundedMTBold", size: 20)!]

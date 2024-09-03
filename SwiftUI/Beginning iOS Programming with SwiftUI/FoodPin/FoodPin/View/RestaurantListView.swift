@@ -9,6 +9,8 @@ import SwiftUI
 import SwiftData
 
 struct RestaurantListView: View {
+    @AppStorage("hasViewedWalkthrough") var hasViewedWalkthrough: Bool = false
+    
     @Environment(\.modelContext) private var modelContext
     
     @Query var restaurants: [Restaurant]
@@ -16,6 +18,7 @@ struct RestaurantListView: View {
     @State private var searchText = ""
     @State private var searchResult: [Restaurant] = []
     @State private var isSearchActive = false
+    @State private var showWalkthrough = false
     
     var body: some View {
         NavigationStack {
@@ -55,8 +58,14 @@ struct RestaurantListView: View {
             }
         }
         .tint(.primary)
+        .onAppear() {
+            showWalkthrough = hasViewedWalkthrough ? false : true
+        }
         .sheet(isPresented: $showNewRestaurant) {
             NewRestaurantView()
+        }
+        .sheet(isPresented: $showWalkthrough) {
+            TutorialView()
         }
         .searchable(text: $searchText, isPresented: $isSearchActive, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search restaurants...")
         .searchSuggestions{
