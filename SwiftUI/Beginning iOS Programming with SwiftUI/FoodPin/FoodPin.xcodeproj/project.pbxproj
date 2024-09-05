@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42028A242C8A69A800A300B1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 42028A232C8A69A800A300B1 /* Localizable.xcstrings */; };
 		420FCE782C7FB9F500E54F3A /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FCE772C7FB9F500E54F3A /* ReviewView.swift */; };
 		425387922C79D8C80008262E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425387912C79D8C80008262E /* Restaurant.swift */; };
 		425387962C79DAE10008262E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425387952C79DAE10008262E /* ActivityView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42028A232C8A69A800A300B1 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		420FCE772C7FB9F500E54F3A /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		425387912C79D8C80008262E /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		425387952C79DAE10008262E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				42E2507F2C75ECC900DE8A84 /* FoodPin */,
+				42028A232C8A69A800A300B1 /* Localizable.xcstrings */,
 				42E2507E2C75ECC900DE8A84 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -215,6 +218,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				de,
 			);
 			mainGroup = 42E250742C75ECC900DE8A84;
 			productRefGroup = 42E2507E2C75ECC900DE8A84 /* Products */;
@@ -232,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E250882C75ECCA00DE8A84 /* Preview Assets.xcassets in Resources */,
+				42028A242C8A69A800A300B1 /* Localizable.xcstrings in Resources */,
 				42657FF12C7B7E9800006981 /* Nunito-Bold.ttf in Resources */,
 				42657FF22C7B7E9800006981 /* Nunito-Regular.ttf in Resources */,
 				42E250852C75ECCA00DE8A84 /* Assets.xcassets in Resources */,

@@ -50,15 +50,15 @@ struct NewRestaurantView: View {
                             self.showPhotoOptions.toggle()
                         }
                     
-                    FormTextField(label: "NAME", placeholder: "Fill in the restaurant name", value: $restaurantFormViewModel.name)
+                    FormTextField(label: String(localized: "NAME"), placeholder: String(localized: "Fill in the restaurant name"), value: $restaurantFormViewModel.name)
                     
-                    FormTextField(label: "TYPE", placeholder: "Fill in the restaurant type", value: $restaurantFormViewModel.type)
+                    FormTextField(label: String(localized: "TYPE"), placeholder: String(localized: "Fill in the restaurant type"), value: $restaurantFormViewModel.type)
                     
-                    FormTextField(label: "ADDRESS", placeholder: "Fill in the restaurant address", value: $restaurantFormViewModel.location)
+                    FormTextField(label: String(localized: "ADDRESS"), placeholder: String(localized: "Fill in the restaurant address"), value: $restaurantFormViewModel.location)
                     
-                    FormTextField(label: "PHONE", placeholder: "Fill in the restaurant phone", value: $restaurantFormViewModel.phone)
+                    FormTextField(label: String(localized: "PHONE"), placeholder: String(localized: "Fill in the restaurant phone"), value: $restaurantFormViewModel.phone)
                     
-                    FormTextView(label: "DESCRIPTION", value: $restaurantFormViewModel.summary, height: 100)
+                    FormTextView(label: String(localized: "DESCRIPTION"), value: $restaurantFormViewModel.summary, height: 100)
                 }
                 .padding()
                 
@@ -120,6 +120,7 @@ struct NewRestaurantView: View {
         
         
         modelContext.insert(restaurant)
+         
     }
 }
 
@@ -189,3 +190,7 @@ struct FormTextView: View {
     FormTextView(label: "Description", value: .constant(""))
 }
 
+#Preview("AboutView (German)") {
+    AboutView()
+        .environment(\.locale, .init(identifier: "de"))
+}
