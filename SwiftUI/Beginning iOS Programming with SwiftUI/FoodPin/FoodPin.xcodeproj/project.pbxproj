@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		42028A242C8A69A800A300B1 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 42028A232C8A69A800A300B1 /* Localizable.xcstrings */; };
+		42028A262C8B382500A300B1 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42028A252C8B382500A300B1 /* DiscoverView.swift */; };
 		420FCE782C7FB9F500E54F3A /* ReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 420FCE772C7FB9F500E54F3A /* ReviewView.swift */; };
 		425387922C79D8C80008262E /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425387912C79D8C80008262E /* Restaurant.swift */; };
 		425387962C79DAE10008262E /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425387952C79DAE10008262E /* ActivityView.swift */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		42028A232C8A69A800A300B1 /* Localizable.xcstrings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		42028A252C8B382500A300B1 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
 		420FCE772C7FB9F500E54F3A /* ReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewView.swift; sourceTree = "<group>"; };
 		425387912C79D8C80008262E /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		425387952C79DAE10008262E /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				420FCE772C7FB9F500E54F3A /* ReviewView.swift */,
 				42C5DCBA2C870D04002B232C /* TutorialView.swift */,
 				42EC9D0E2C8794B30041BEA7 /* MainView.swift */,
+				42028A252C8B382500A300B1 /* DiscoverView.swift */,
 				42EC9D102C884ACF0041BEA7 /* AboutView.swift */,
 				42EC9D122C884ADC0041BEA7 /* WebView.swift */,
 				42EC9D142C884AE60041BEA7 /* SafariView.swift */,
@@ -252,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42B8394D2C82E6B0001F8AB3 /* NewRestaurantView.swift in Sources */,
+				42028A262C8B382500A300B1 /* DiscoverView.swift in Sources */,
 				42EC9D0F2C8794B30041BEA7 /* MainView.swift in Sources */,
 				420FCE782C7FB9F500E54F3A /* ReviewView.swift in Sources */,
 				42FDD7F62C7F4939004382FE /* MapView.swift in Sources */,
@@ -404,6 +408,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodPin/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You need to grant the app access to your camera in order to take photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to grant the app access to your photo library so you can pick your favorite restaurant photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -434,6 +440,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FoodPin/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "You need to grant the app access to your camera in order to take photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to grant the app access to your photo library so you can pick your favorite restaurant photo.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

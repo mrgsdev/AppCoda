@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct MainView: View {
+    
     @State private var selectedTabIndex = 0
+    
     var body: some View {
         TabView(selection: $selectedTabIndex) {
             RestaurantListView()
@@ -17,7 +19,7 @@ struct MainView: View {
                 }
                 .tag(0)
             
-            Text("Discover")
+            DiscoverView()
                 .tabItem {
                     Label("Discover", systemImage: "wand.and.rays")
                 }
@@ -30,6 +32,15 @@ struct MainView: View {
                 .tag(2)
         }
         .tint(Color("NavigationBarTitle"))
+        .onOpenURL(perform: { url in
+            
+            switch url.path {
+            case "/OpenFavorites": selectedTabIndex = 0;print(url.path)
+            case "/OpenDiscover": selectedTabIndex = 1;print(url.path)
+            case "/NewRestaurant": selectedTabIndex = 0;print(url.path)
+            default:  print("Unknown URL: \(url.absoluteString)")
+            }
+        })
     }
 }
 
