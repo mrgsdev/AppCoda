@@ -105,13 +105,6 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
-		42657FF42C7B7EEF00006981 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		428D44CF2C84A09D00748E67 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,7 +145,6 @@
 				42B839472C82E5CE001F8AB3 /* Util */,
 				42EB62832C7CBE9400A6375D /* Extensions */,
 				42657FF32C7B7ED900006981 /* Info.plist */,
-				42657FF42C7B7EEF00006981 /* Resources */,
 				42657FF02C7B7E9800006981 /* Fonts */,
 				42E250802C75ECC900DE8A84 /* FoodPinApp.swift */,
 				425387942C79D9BA0008262E /* View */,
