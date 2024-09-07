@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UserNotifications
 
 @main
 struct FoodPinApp: App {
@@ -89,7 +90,7 @@ final class MainSceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 }
 
-final class AppDelegate: UIResponder, UIApplicationDelegate {
+final class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
     
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         let configuration = UISceneConfiguration(name: "Main Scene", sessionRole: connectingSceneSession.role)
@@ -97,5 +98,38 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         configuration.delegateClass = MainSceneDelegate.self
         
         return configuration
+    }
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { (granted, error) in
+            
+            if granted {
+                print("User notifications are allowed.")
+            } else {
+                print("User notifications are not allowed.")
+            }
+        }
+        
+        UNUserNotificationCenter.current().delegate = self
+        
+        return true
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        if response.actionIdentifier == "foodpin.makeReservation" {
+            print("Make reservation...")
+            if let phone = response.notification.request.content.userInfo["phone"] {
+                let telURL = "tel://\(phone)"
+                if let url = URL(string: telURL) {
+                    if UIApplication.shared.canOpenURL(url) {
+                        print("calling \(telURL)")
+                        UIApplication.shared.open(url)
+                    }
+                }
+            }
+        }
+        
+        completionHandler()
     }
 }
