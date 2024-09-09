@@ -1,4 +1,13 @@
-# AppCoda
+# FoodPin
+
+## About
+- [SwiftUI](https://developer.apple.com/documentation/SwiftUI)
+- [SwiftData](https://developer.apple.com/documentation/swiftdata) 
+- [List](https://developer.apple.com/documentation/swiftui/list/)
+- [MapKit](https://developer.apple.com/documentation/mapkit/mapkit_for_swiftui) 
+- [UserNotifications](https://developer.apple.com/documentation/usernotifications)
+- [AppStorage](https://developer.apple.com/documentation/swiftui/appstorage)
+- [Localizing](https://developer.apple.com/documentation/xcode/localizing-and-varying-text-with-a-string-catalog)
 
 ![First](https://github.com/mrgsdev/AppCoda/assets/157994617/3c5baba1-c099-4d17-ad0a-a8c878379921)
 ![Second](https://github.com/mrgsdev/AppCoda/assets/157994617/7ba31c39-989e-43fb-b792-1a1c75d2f97e)
