@@ -8,7 +8,6 @@
 - [UserNotifications](https://developer.apple.com/documentation/usernotifications)
 - [AppStorage](https://developer.apple.com/documentation/swiftui/appstorage)
 - [Localizing](https://developer.apple.com/documentation/xcode/localizing-and-varying-text-with-a-string-catalog)
-
 ![First](https://github.com/mrgsdev/AppCoda/assets/157994617/3c5baba1-c099-4d17-ad0a-a8c878379921)
 ![Second](https://github.com/mrgsdev/AppCoda/assets/157994617/7ba31c39-989e-43fb-b792-1a1c75d2f97e)
 ![Third](https://github.com/mrgsdev/AppCoda/assets/157994617/909a5b60-447c-4efe-8139-94304a79e8e9)
