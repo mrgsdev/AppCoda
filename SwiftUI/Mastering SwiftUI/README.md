@@ -4,9 +4,9 @@
  - [ ] ***Incomplete***
 
   ### Contents  
-- [ ] [Chapter 1: Introduction to SwiftUI](#1)  
-- [ ] [Chapter 2: Getting Started with SwiftUI and Working with Text](#2)
-- [ ] [Chapter 3: Working with Images](#3)
+- [x] [Chapter 1: Introduction to SwiftUI](#1)  
+- [x] [Chapter 2: Getting Started with SwiftUI and Working with Text](#2)
+- [x] [Chapter 3: Working with Images](#3)
 - [ ] [Chapter 4: Layout User Interfaces with Stacks](#4)
 - [ ] [Chapter 5: Understanding ScrollView and Building a Carousel UI](#5)
 - [ ] [Chapter 6: Working with SwiftUI Buttons and Gradient](#6)
