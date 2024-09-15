@@ -9,7 +9,7 @@
 - [x] [Chapter 3: Working with Images](#3)
 - [x] [Chapter 4: Layout User Interfaces with Stacks](#4)
 - [x] [Chapter 5: Understanding ScrollView and Building a Carousel UI](#5)
-- [ ] [Chapter 6: Working with SwiftUI Buttons and Gradient](#6)
+- [x] [Chapter 6: Working with SwiftUI Buttons and Gradient](#6)
 - [ ] [Chapter 7: Understanding State and Binding](#7)
 - [ ] [Chapter 8: Implementing Path and Shape for Line Drawing and Pie Charts](#8)
 - [ ] [Chapter 9: Basic Animations and Transitions](#9)
@@ -87,6 +87,7 @@
 
 <a name="6"></a>
 # [Working with SwiftUI Buttons and Gradient](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2006)
+![Chapter 6](https://github.com/user-attachments/assets/634d44be-4d67-4b27-8786-a1e6c311f58b)
 ##
 
 <a name="7"></a>
