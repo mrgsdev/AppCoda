@@ -7,8 +7,8 @@
 - [x] [Chapter 1: Introduction to SwiftUI](#1)  
 - [x] [Chapter 2: Getting Started with SwiftUI and Working with Text](#2)
 - [x] [Chapter 3: Working with Images](#3)
-- [ ] [Chapter 4: Layout User Interfaces with Stacks](#4)
-- [ ] [Chapter 5: Understanding ScrollView and Building a Carousel UI](#5)
+- [x] [Chapter 4: Layout User Interfaces with Stacks](#4)
+- [x] [Chapter 5: Understanding ScrollView and Building a Carousel UI](#5)
 - [ ] [Chapter 6: Working with SwiftUI Buttons and Gradient](#6)
 - [ ] [Chapter 7: Understanding State and Binding](#7)
 - [ ] [Chapter 8: Implementing Path and Shape for Line Drawing and Pie Charts](#8)
@@ -67,18 +67,22 @@
 
 <a name="2"></a>
 # [Getting Started with SwiftUI and Working with Text](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2002)
+![Chapter 2](https://github.com/user-attachments/assets/d8c5e923-9c3a-4dfc-b72b-806f65ac4951)
 ##
 
 <a name="3"></a>
 # [Working with Images](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2003)
+![Chapter 3](https://github.com/user-attachments/assets/79238bb9-4786-4502-9e36-b802197d7d6f)
 ##
 
 <a name="4"></a>
 # [Layout User Interfaces with Stacks](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2004)
+![Chapter 4](https://github.com/user-attachments/assets/99ad6af4-006b-49ef-8a76-e9ae4800f1d3)
 ##
 
 <a name="5"></a>
 # [Understanding ScrollView and Building a Carousel UI](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2005)
+![Chapter 5](https://github.com/user-attachments/assets/3f3a808d-c5b3-4d49-a5a8-77a17046b202)
 ##
 
 <a name="6"></a>
