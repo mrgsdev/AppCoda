@@ -10,7 +10,7 @@
 - [x] [Chapter 4: Layout User Interfaces with Stacks](#4)
 - [x] [Chapter 5: Understanding ScrollView and Building a Carousel UI](#5)
 - [x] [Chapter 6: Working with SwiftUI Buttons and Gradient](#6)
-- [ ] [Chapter 7: Understanding State and Binding](#7)
+- [x] [Chapter 7: Understanding State and Binding](#7)
 - [ ] [Chapter 8: Implementing Path and Shape for Line Drawing and Pie Charts](#8)
 - [ ] [Chapter 9: Basic Animations and Transitions](#9)
 - [ ] [Chapter 10: Understanding Dynamic List, ForEach and Identifiable](#10)
@@ -92,6 +92,7 @@
 
 <a name="7"></a>
 # [Understanding State and Binding](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2007)
+![Chapter 7](https://github.com/user-attachments/assets/45a873bf-4ae5-426a-b282-3eaad112ebc2)
 ##
 
 <a name="8"></a>
