@@ -12,7 +12,7 @@
 - [x] [Chapter 6: Working with SwiftUI Buttons and Gradient](#6)
 - [x] [Chapter 7: Understanding State and Binding](#7)
 - [x] [Chapter 8: Implementing Path and Shape for Line Drawing and Pie Charts](#8)
-- [ ] [Chapter 9: Basic Animations and Transitions](#9)
+- [x] [Chapter 9: Basic Animations and Transitions](#9)
 - [ ] [Chapter 10: Understanding Dynamic List, ForEach and Identifiable](#10)
 - [ ] [Chapter 11: Working with Navigation UI and Navigation Bar Customization](#11)
 - [ ] [Chapter 12: Playing with Modal Views, Floating Buttons and Alerts](#12)
@@ -97,10 +97,12 @@
 
 <a name="8"></a>
 # [Implementing Path and Shape for Line Drawing and Pie Charts](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2008)
+![Chapter 8](https://github.com/user-attachments/assets/5b666487-5c29-4476-8bc7-81677daabca7)
 ##
 
 <a name="9"></a>
 # [Basic Animations and Transitions](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2009)
+![Chapter 9](https://github.com/user-attachments/assets/382ae00c-766e-4cbd-8a11-7bc80acef3a5)
 ##
 
 <a name="10"></a>
