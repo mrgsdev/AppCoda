@@ -11,7 +11,7 @@
 - [x] [Chapter 5: Understanding ScrollView and Building a Carousel UI](#5)
 - [x] [Chapter 6: Working with SwiftUI Buttons and Gradient](#6)
 - [x] [Chapter 7: Understanding State and Binding](#7)
-- [ ] [Chapter 8: Implementing Path and Shape for Line Drawing and Pie Charts](#8)
+- [x] [Chapter 8: Implementing Path and Shape for Line Drawing and Pie Charts](#8)
 - [ ] [Chapter 9: Basic Animations and Transitions](#9)
 - [ ] [Chapter 10: Understanding Dynamic List, ForEach and Identifiable](#10)
 - [ ] [Chapter 11: Working with Navigation UI and Navigation Bar Customization](#11)
