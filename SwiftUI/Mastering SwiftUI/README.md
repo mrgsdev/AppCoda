@@ -13,7 +13,7 @@
 - [x] [Chapter 7: Understanding State and Binding](#7)
 - [x] [Chapter 8: Implementing Path and Shape for Line Drawing and Pie Charts](#8)
 - [x] [Chapter 9: Basic Animations and Transitions](#9)
-- [ ] [Chapter 10: Understanding Dynamic List, ForEach and Identifiable](#10)
+- [x] [Chapter 10: Understanding Dynamic List, ForEach and Identifiable](#10)
 - [ ] [Chapter 11: Working with Navigation UI and Navigation Bar Customization](#11)
 - [ ] [Chapter 12: Playing with Modal Views, Floating Buttons and Alerts](#12)
 - [ ] [Chapter 13: Building a Form with Picker, Toggle and Stepper](#13)
@@ -107,6 +107,7 @@
 
 <a name="10"></a>
 # [Understanding Dynamic List, ForEach and Identifiable](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2010)
+![Chapter 10](https://github.com/user-attachments/assets/746d88f0-fe0e-4720-896b-fde82415a1e0)
 ##
 
 <a name="11"></a>
