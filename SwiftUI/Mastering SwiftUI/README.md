@@ -15,7 +15,7 @@
 - [x] [Chapter 9: Basic Animations and Transitions](#9)
 - [x] [Chapter 10: Understanding Dynamic List, ForEach and Identifiable](#10)
 - [x] [Chapter 11: Working with Navigation UI and Navigation Bar Customization](#11)
-- [ ] [Chapter 12: Playing with Modal Views, Floating Buttons and Alerts](#12)
+- [x] [Chapter 12: Playing with Modal Views, Floating Buttons and Alerts](#12)
 - [ ] [Chapter 13: Building a Form with Picker, Toggle and Stepper](#13)
 - [ ] [Chapter 14: Data Sharing with Combine and Environment Objects](#14)
 - [ ] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
@@ -117,6 +117,7 @@
 
 <a name="12"></a>
 # [Playing with Modal Views, Floating Buttons and Alerts](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2012)
+![Chapter 12 First](https://github.com/user-attachments/assets/999f9f94-f76c-4423-a4f0-cccff5155fea)
 ##
 
 <a name="13"></a>
