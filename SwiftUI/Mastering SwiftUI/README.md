@@ -16,7 +16,7 @@
 - [x] [Chapter 10: Understanding Dynamic List, ForEach and Identifiable](#10)
 - [x] [Chapter 11: Working with Navigation UI and Navigation Bar Customization](#11)
 - [x] [Chapter 12: Playing with Modal Views, Floating Buttons and Alerts](#12)
-- [ ] [Chapter 13: Building a Form with Picker, Toggle and Stepper](#13)
+- [x] [Chapter 13: Building a Form with Picker, Toggle and Stepper](#13)
 - [ ] [Chapter 14: Data Sharing with Combine and Environment Objects](#14)
 - [ ] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
 - [ ] [Chapter 16: Building a Registration Form with Combine and View Model](#16)
