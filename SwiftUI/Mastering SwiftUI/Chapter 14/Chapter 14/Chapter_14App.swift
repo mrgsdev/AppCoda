@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Chapter_14App: App {
+    var settingStore = SettingStore()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(settingStore)
         }
     }
 }
