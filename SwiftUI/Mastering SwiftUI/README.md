@@ -17,7 +17,7 @@
 - [x] [Chapter 11: Working with Navigation UI and Navigation Bar Customization](#11)
 - [x] [Chapter 12: Playing with Modal Views, Floating Buttons and Alerts](#12)
 - [x] [Chapter 13: Building a Form with Picker, Toggle and Stepper](#13)
-- [ ] [Chapter 14: Data Sharing with Combine and Environment Objects](#14)
+- [x] [Chapter 14: Data Sharing with Combine and Environment Objects](#14)
 - [ ] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
 - [ ] [Chapter 16: Building a Registration Form with Combine and View Model](#16)
 - [ ] [Chapter 17: Using Gestures](#17)
@@ -122,10 +122,12 @@
 
 <a name="13"></a>
 # [Building a Form with Picker, Toggle and Stepper](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2013)
+![Chapter 13](https://github.com/user-attachments/assets/3c117b61-a881-4974-8e22-2cfba940df52)
 ##
 
 <a name="14"></a>
 # [Data Sharing with Combine and Environment Objects](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2014)
+![Chapter 13](https://github.com/user-attachments/assets/3c117b61-a881-4974-8e22-2cfba940df52)
 ##
 
 <a name="15"></a>
