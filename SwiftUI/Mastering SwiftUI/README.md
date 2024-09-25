@@ -18,8 +18,8 @@
 - [x] [Chapter 12: Playing with Modal Views, Floating Buttons and Alerts](#12)
 - [x] [Chapter 13: Building a Form with Picker, Toggle and Stepper](#13)
 - [x] [Chapter 14: Data Sharing with Combine and Environment Objects](#14)
-- [ ] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
-- [ ] [Chapter 16: Building a Registration Form with Combine and View Model](#16)
+- [x] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
+- [ ] [Chapter 16: Working with Swipe-to-Delete,Context Menu and Action Sheets](#16)
 - [ ] [Chapter 17: Using Gestures](#17)
 - [ ] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
 - [ ] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
@@ -132,10 +132,11 @@
 
 <a name="15"></a>
 # [Building a Registration Form with Combine and View Model](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2015)
+![Chapter 15](https://github.com/user-attachments/assets/c8d1f21d-75e1-468a-834a-4d844b1e892f)
 ##
 
 <a name="16"></a>
-# [Building a Registration Form with Combine and View Model](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2016)
+# [Working with Swipe-to-Delete, Context Menu and Action Sheets](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2016)
 ##
 
 <a name="17"></a>
