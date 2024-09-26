@@ -19,7 +19,7 @@
 - [x] [Chapter 13: Building a Form with Picker, Toggle and Stepper](#13)
 - [x] [Chapter 14: Data Sharing with Combine and Environment Objects](#14)
 - [x] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
-- [ ] [Chapter 16: Working with Swipe-to-Delete,Context Menu and Action Sheets](#16)
+- [x] [Chapter 16: Working with Swipe-to-Delete,Context Menu and Action Sheets](#16)
 - [ ] [Chapter 17: Using Gestures](#17)
 - [ ] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
 - [ ] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
@@ -137,6 +137,7 @@
 
 <a name="16"></a>
 # [Working with Swipe-to-Delete, Context Menu and Action Sheets](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2016)
+![Chapter 16](https://github.com/user-attachments/assets/6c94fa63-91b1-43c3-b020-05ca4918c9d7)
 ##
 
 <a name="17"></a>
