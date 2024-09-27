@@ -20,7 +20,7 @@
 - [x] [Chapter 14: Data Sharing with Combine and Environment Objects](#14)
 - [x] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
 - [x] [Chapter 16: Working with Swipe-to-Delete,Context Menu and Action Sheets](#16)
-- [ ] [Chapter 17: Using Gestures](#17)
+- [x] [Chapter 17: Understanding Gestures](#17)
 - [ ] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
 - [ ] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
 - [ ] [Chapter 20: Creating an Apple Wallet like Animation and View Transition](#20)
@@ -142,6 +142,7 @@
 
 <a name="17"></a>
 # [Using Gestures](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2017)
+![Chapter 17](https://github.com/user-attachments/assets/9826a5c2-365a-4f9a-aef1-425d20e0e8ce)
 ##
 
 <a name="18"></a>
