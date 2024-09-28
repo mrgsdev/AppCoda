@@ -21,7 +21,7 @@
 - [x] [Chapter 15: Building a Registration Form with Combine and View Model](#15)
 - [x] [Chapter 16: Working with Swipe-to-Delete,Context Menu and Action Sheets](#16)
 - [x] [Chapter 17: Understanding Gestures](#17)
-- [ ] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
+- [x] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
 - [ ] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
 - [ ] [Chapter 20: Creating an Apple Wallet like Animation and View Transition](#20)
 - [ ] [Chapter 21: Working with JSON, Slider and Data Filtering](#21)
@@ -147,6 +147,7 @@
 
 <a name="18"></a>
 # [Displaying an Expandable Bottom Sheet Using Presentation Detents](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2018)
+![Chapter 18](https://github.com/user-attachments/assets/bbd6dc34-8cb7-4ab6-aa48-5c162d3bf911)
 ##
 
 <a name="19"></a>
