@@ -22,7 +22,7 @@
 - [x] [Chapter 16: Working with Swipe-to-Delete,Context Menu and Action Sheets](#16)
 - [x] [Chapter 17: Understanding Gestures](#17)
 - [x] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
-- [ ] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
+- [x] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
 - [ ] [Chapter 20: Creating an Apple Wallet like Animation and View Transition](#20)
 - [ ] [Chapter 21: Working with JSON, Slider and Data Filtering](#21)
 - [ ] [Chapter 22: Building a ToDo app with SwiftData](#22)
@@ -152,6 +152,7 @@
 
 <a name="19"></a>
 # [Creating a Tinder-like UI with Gestures and Animations](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2019)
+![Chapter 19](https://github.com/user-attachments/assets/bcf08a82-47c6-4f0e-a676-7ae6ec462f7f)
 ##
 
 <a name="20"></a>
