@@ -23,7 +23,7 @@
 - [x] [Chapter 17: Understanding Gestures](#17)
 - [x] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
 - [x] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
-- [ ] [Chapter 20: Creating an Apple Wallet like Animation and View Transition](#20)
+- [x] [Chapter 20: Creating an Apple Wallet like Animation and View Transition](#20)
 - [ ] [Chapter 21: Working with JSON, Slider and Data Filtering](#21)
 - [ ] [Chapter 22: Building a ToDo app with SwiftData](#22)
 - [ ] [Chapter 23: Integrating UIKit with SwiftUI Using UIViewRepresentable](#23)
