@@ -24,7 +24,7 @@
 - [x] [Chapter 18: Displaying an Expandable Bottom Sheet Using Presentation Detents](#18)
 - [x] [Chapter 19: Creating a Tinder-like UI with Gestures and Animations](#19)
 - [x] [Chapter 20: Creating an Apple Wallet like Animation and View Transition](#20)
-- [ ] [Chapter 21: Working with JSON, Slider and Data Filtering](#21)
+- [x] [Chapter 21: Working with JSON, Slider and Data Filtering](#21)
 - [ ] [Chapter 22: Building a ToDo app with SwiftData](#22)
 - [ ] [Chapter 23: Integrating UIKit with SwiftUI Using UIViewRepresentable](#23)
 - [ ] [Chapter 24: Creating a Search Bar View and Working with Custom Binding](#24)
@@ -162,6 +162,7 @@
 
 <a name="21"></a>
 # [Working with JSON, Slider and Data Filtering](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2021)
+![Chapter 21](https://github.com/user-attachments/assets/c6c6c18f-3d7c-4f9f-84d2-92b690f19ab0)
 ##
 
 <a name="22"></a>
