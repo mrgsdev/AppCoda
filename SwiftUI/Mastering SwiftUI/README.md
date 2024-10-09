@@ -27,7 +27,7 @@
 - [x] [Chapter 21: Working with JSON, Slider and Data Filtering](#21)
 - [x] [Chapter 22: Building a ToDo app with SwiftData](#22)
 - [x] [Chapter 23: Integrating UIKit with SwiftUI Using UIViewRepresentable](#23)
-- [ ] [Chapter 24: Creating a Search Bar View and Working with Custom Binding](#24)
+- [x] [Chapter 24: Creating a Search Bar View and Working with Custom Binding](#24)
 - [ ] [Chapter 25: Putting Everything Together to Build a Real World App](#25)
 - [ ] [Chapter 26: Creating an App Store like Animated View Transition](#26)
 - [ ] [Chapter 27: Building an Image Carousel](#27)
