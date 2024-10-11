@@ -29,7 +29,7 @@
 - [x] [Chapter 23: Integrating UIKit with SwiftUI Using UIViewRepresentable](#23)
 - [x] [Chapter 24: Creating a Search Bar View and Working with Custom Binding](#24)
 - [x] [Chapter 25: Putting Everything Together to Build a Real World App](#25)
-- [ ] [Chapter 26: Creating an App Store like Animated View Transition](#26)
+- [x] [Chapter 26: Creating an App Store like Animated View Transition](#26)
 - [ ] [Chapter 27: Building an Image Carousel](#27)
 - [ ] [Chapter 28: Building an Expandable List View Using OutlineGroup](#28)
 - [ ] [Chapter 29: Building Grid Layout Using LazyVGrid and LazyHGrid](#29)
@@ -183,6 +183,7 @@
 
 <a name="26"></a>
 # [Creating an App Store like Animated View Transition](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2026)
+![Chapter 26](https://github.com/user-attachments/assets/3cc0ce90-40e0-44e5-a22a-cad825959d1c)
 ##
 
 <a name="27"></a>
