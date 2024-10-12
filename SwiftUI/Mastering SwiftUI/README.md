@@ -188,6 +188,7 @@
 
 <a name="27"></a>
 # [Building an Image Carousel](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2027)
+![Chapter 27](https://github.com/user-attachments/assets/dbf46c4b-60bb-41cc-b819-0d7815760ee6)
 ##
 
 <a name="28"></a>
