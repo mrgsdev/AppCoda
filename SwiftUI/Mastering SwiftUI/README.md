@@ -30,7 +30,7 @@
 - [x] [Chapter 24: Creating a Search Bar View and Working with Custom Binding](#24)
 - [x] [Chapter 25: Putting Everything Together to Build a Real World App](#25)
 - [x] [Chapter 26: Creating an App Store like Animated View Transition](#26)
-- [ ] [Chapter 27: Building an Image Carousel](#27)
+- [x] [Chapter 27: Building an Image Carousel](#27)
 - [ ] [Chapter 28: Building an Expandable List View Using OutlineGroup](#28)
 - [ ] [Chapter 29: Building Grid Layout Using LazyVGrid and LazyHGrid](#29)
 - [ ] [Chapter 30: Creating an Animated Activity Ring with Shape and Animatable](#30)
