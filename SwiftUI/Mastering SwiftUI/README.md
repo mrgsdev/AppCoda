@@ -31,7 +31,7 @@
 - [x] [Chapter 25: Putting Everything Together to Build a Real World App](#25)
 - [x] [Chapter 26: Creating an App Store like Animated View Transition](#26)
 - [x] [Chapter 27: Building an Image Carousel](#27)
-- [ ] [Chapter 28: Building an Expandable List View Using OutlineGroup](#28)
+- [x] [Chapter 28: Building an Expandable List View Using OutlineGroup](#28)
 - [ ] [Chapter 29: Building Grid Layout Using LazyVGrid and LazyHGrid](#29)
 - [ ] [Chapter 30: Creating an Animated Activity Ring with Shape and Animatable](#30)
 - [ ] [Chapter 31: Working with AnimatableModifier and LibraryContentProvider](#31)
@@ -193,6 +193,7 @@
 
 <a name="28"></a>
 # [Building an Expandable List View Using OutlineGroup](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%28)
+![Chapter 28](https://github.com/user-attachments/assets/4550339b-1720-4091-b62f-c2f9977bbd1e)
 ##
 
 <a name="29"></a>
