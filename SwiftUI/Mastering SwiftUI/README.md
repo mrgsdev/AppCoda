@@ -32,7 +32,7 @@
 - [x] [Chapter 26: Creating an App Store like Animated View Transition](#26)
 - [x] [Chapter 27: Building an Image Carousel](#27)
 - [x] [Chapter 28: Building an Expandable List View Using OutlineGroup](#28)
-- [ ] [Chapter 29: Building Grid Layout Using LazyVGrid and LazyHGrid](#29)
+- [x] [Chapter 29: Building Grid Layout Using LazyVGrid and LazyHGrid](#29)
 - [ ] [Chapter 30: Creating an Animated Activity Ring with Shape and Animatable](#30)
 - [ ] [Chapter 31: Working with AnimatableModifier and LibraryContentProvider](#31)
 - [ ] [Chapter 32: Working with TextEditor to Create Multiline Text Fields](#32)
@@ -198,6 +198,7 @@
 
 <a name="29"></a>
 # [Building Grid Layout Using LazyVGrid and LazyHGrid](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2029)
+![Chapter 29](https://github.com/user-attachments/assets/0d6cd358-d9b5-45ed-9745-aa69465c4a57)
 ##
 
 <a name="30"></a>
