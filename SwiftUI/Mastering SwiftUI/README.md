@@ -33,7 +33,7 @@
 - [x] [Chapter 27: Building an Image Carousel](#27)
 - [x] [Chapter 28: Building an Expandable List View Using OutlineGroup](#28)
 - [x] [Chapter 29: Building Grid Layout Using LazyVGrid and LazyHGrid](#29)
-- [ ] [Chapter 30: Creating an Animated Activity Ring with Shape and Animatable](#30)
+- [x] [Chapter 30: Creating an Animated Activity Ring with Shape and Animatable](#30)
 - [ ] [Chapter 31: Working with AnimatableModifier and LibraryContentProvider](#31)
 - [ ] [Chapter 32: Working with TextEditor to Create Multiline Text Fields](#32)
 - [ ] [Chapter 33: Using matchedGeometryEffect to Create View Animations](#33)
@@ -203,6 +203,7 @@
 
 <a name="30"></a>
 # [Creating an Animated Activity Ring with Shape and Animatable](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2030)
+![Chapter 30](https://github.com/user-attachments/assets/5c804e6b-3dc9-4006-910c-4ff25076cf75)
 ##
 
 <a name="31"></a>
