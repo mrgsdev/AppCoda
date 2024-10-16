@@ -34,7 +34,7 @@
 - [x] [Chapter 28: Building an Expandable List View Using OutlineGroup](#28)
 - [x] [Chapter 29: Building Grid Layout Using LazyVGrid and LazyHGrid](#29)
 - [x] [Chapter 30: Creating an Animated Activity Ring with Shape and Animatable](#30)
-- [ ] [Chapter 31: Working with AnimatableModifier and LibraryContentProvider](#31)
+- [x] [Chapter 31: Working with AnimatableModifier and LibraryContentProvider](#31)
 - [ ] [Chapter 32: Working with TextEditor to Create Multiline Text Fields](#32)
 - [ ] [Chapter 33: Using matchedGeometryEffect to Create View Animations](#33)
 - [ ] [Chapter 34: ScrollViewReader and Grid Animation](#34)
