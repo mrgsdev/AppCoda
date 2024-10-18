@@ -36,7 +36,7 @@
 - [x] [Chapter 30: Creating an Animated Activity Ring with Shape and Animatable](#30)
 - [x] [Chapter 31: Working with AnimatableModifier and LibraryContentProvider](#31)
 - [x] [Chapter 32: Working with TextEditor to Create Multiline Text Fields](#32)
-- [ ] [Chapter 33: Using matchedGeometryEffect to Create View Animations](#33)
+- [x] [Chapter 33: Using matchedGeometryEffect to Create View Animations](#33)
 - [ ] [Chapter 34: ScrollViewReader and Grid Animation](#34)
 - [ ] [Chapter 35: Working with Tab View and Tab Bar Customization](#35)
 - [ ] [Chapter 36: Using AsyncImage in SwiftUI for Loading Images Asynchronously](#36)
@@ -218,6 +218,7 @@
 
 <a name="33"></a>
 # [Using matchedGeometryEffect to Create View Animations](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2033)
+![Chapter 33](https://github.com/user-attachments/assets/f8db4314-b41f-486b-bad3-b743cffe8994)
 ##
 
 <a name="34"></a>
