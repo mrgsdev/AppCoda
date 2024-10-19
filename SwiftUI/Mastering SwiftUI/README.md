@@ -37,7 +37,7 @@
 - [x] [Chapter 31: Working with AnimatableModifier and LibraryContentProvider](#31)
 - [x] [Chapter 32: Working with TextEditor to Create Multiline Text Fields](#32)
 - [x] [Chapter 33: Using matchedGeometryEffect to Create View Animations](#33)
-- [ ] [Chapter 34: ScrollViewReader and Grid Animation](#34)
+- [x] [Chapter 34: ScrollViewReader and Grid Animation](#34)
 - [ ] [Chapter 35: Working with Tab View and Tab Bar Customization](#35)
 - [ ] [Chapter 36: Using AsyncImage in SwiftUI for Loading Images Asynchronously](#36)
 - [ ] [Chapter 37: Implementing Search Bar Using Searchable](#37)
@@ -223,6 +223,7 @@
 
 <a name="34"></a>
 # [ScrollViewReader and Grid Animation](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2034)
+![Chapter 34](https://github.com/user-attachments/assets/79157ec3-1e32-4070-b25f-f0023fd949b7)
 ##
 
 <a name="35"></a>
