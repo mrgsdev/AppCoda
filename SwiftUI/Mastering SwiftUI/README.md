@@ -228,6 +228,7 @@
 
 <a name="35"></a>
 # [Working with Tab View and Tab Bar Customization](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2035)
+![Chapter 35](https://github.com/user-attachments/assets/f773fb33-e5ef-473d-9929-1f03713eceb1)
 ##
 
 <a name="36"></a>
