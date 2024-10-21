@@ -38,7 +38,7 @@
 - [x] [Chapter 32: Working with TextEditor to Create Multiline Text Fields](#32)
 - [x] [Chapter 33: Using matchedGeometryEffect to Create View Animations](#33)
 - [x] [Chapter 34: ScrollViewReader and Grid Animation](#34)
-- [ ] [Chapter 35: Working with Tab View and Tab Bar Customization](#35)
+- [x] [Chapter 35: Working with Tab View and Tab Bar Customization](#35)
 - [ ] [Chapter 36: Using AsyncImage in SwiftUI for Loading Images Asynchronously](#36)
 - [ ] [Chapter 37: Implementing Search Bar Using Searchable](#37)
 - [ ] [Chapter 38: Creating Bar Charts and Line Charts with the Charts Framework](#38)
@@ -233,6 +233,7 @@
 
 <a name="36"></a>
 # [Using AsyncImage in SwiftUI for Loading Images Asynchronously](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2036)
+![Chapter 36](https://github.com/user-attachments/assets/3c012f0b-f5ee-4c11-9234-b50ae5db73bb)
 ##
 
 <a name="37"></a>
