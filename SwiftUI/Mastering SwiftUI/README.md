@@ -39,8 +39,8 @@
 - [x] [Chapter 33: Using matchedGeometryEffect to Create View Animations](#33)
 - [x] [Chapter 34: ScrollViewReader and Grid Animation](#34)
 - [x] [Chapter 35: Working with Tab View and Tab Bar Customization](#35)
-- [ ] [Chapter 36: Using AsyncImage in SwiftUI for Loading Images Asynchronously](#36)
-- [ ] [Chapter 37: Implementing Search Bar Using Searchable](#37)
+- [x] [Chapter 36: Using AsyncImage in SwiftUI for Loading Images Asynchronously](#36)
+- [x] [Chapter 37: Implementing Search Bar Using Searchable](#37)
 - [ ] [Chapter 38: Creating Bar Charts and Line Charts with the Charts Framework](#38)
 - [ ] [Chapter 39: Capturing Text within Image Using Live Text APIs](#39)
 - [ ] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
@@ -238,6 +238,7 @@
 
 <a name="37"></a>
 # [Implementing Search Bar Using Searchable](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2037)
+![Chapter 37](https://github.com/user-attachments/assets/94dae8b4-0273-4c97-9c01-a884f8a094cd)
 ##
 
 <a name="38"></a>
