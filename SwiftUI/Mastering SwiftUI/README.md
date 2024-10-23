@@ -41,7 +41,7 @@
 - [x] [Chapter 35: Working with Tab View and Tab Bar Customization](#35)
 - [x] [Chapter 36: Using AsyncImage in SwiftUI for Loading Images Asynchronously](#36)
 - [x] [Chapter 37: Implementing Search Bar Using Searchable](#37)
-- [ ] [Chapter 38: Creating Bar Charts and Line Charts with the Charts Framework](#38)
+- [x] [Chapter 38: Creating Bar Charts and Line Charts with the Charts Framework](#38)
 - [ ] [Chapter 39: Capturing Text within Image Using Live Text APIs](#39)
 - [ ] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
 - [ ] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
@@ -243,6 +243,7 @@
 
 <a name="38"></a>
 # [Creating Bar Charts and Line Charts with the Charts Framework](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2038)
+![Chapter 38](https://github.com/user-attachments/assets/889213d7-ee94-4617-aa6a-9ae646c7ec1b)
 ##
 
 <a name="39"></a>
