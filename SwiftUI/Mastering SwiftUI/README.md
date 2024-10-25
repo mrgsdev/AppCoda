@@ -42,7 +42,7 @@
 - [x] [Chapter 36: Using AsyncImage in SwiftUI for Loading Images Asynchronously](#36)
 - [x] [Chapter 37: Implementing Search Bar Using Searchable](#37)
 - [x] [Chapter 38: Creating Bar Charts and Line Charts with the Charts Framework](#38)
-- [ ] [Chapter 39: Capturing Text within Image Using Live Text APIs](#39)
+- [x] [Chapter 39: Capturing Text within Image Using Live Text APIs](#39)
 - [ ] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
 - [ ] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
 - [ ] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
@@ -248,6 +248,7 @@
 
 <a name="39"></a>
 # [Capturing Text within Image Using Live Text APIs](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2039)
+![Chapter 39](https://github.com/user-attachments/assets/12a9acc3-40c3-4d56-b5a7-a1012d763b4b)
 ##
 
 <a name="40"></a>
