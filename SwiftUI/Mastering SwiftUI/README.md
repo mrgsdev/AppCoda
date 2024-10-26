@@ -43,7 +43,7 @@
 - [x] [Chapter 37: Implementing Search Bar Using Searchable](#37)
 - [x] [Chapter 38: Creating Bar Charts and Line Charts with the Charts Framework](#38)
 - [x] [Chapter 39: Capturing Text within Image Using Live Text APIs](#39)
-- [ ] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
+- [x] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
 - [ ] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
 - [ ] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
 - [ ] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
@@ -253,6 +253,7 @@
 
 <a name="40"></a>
 # [How to Use ShareLink for Sharing Data Like Text and Photos](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2040)
+![Chapter 40](https://github.com/user-attachments/assets/6fcc089d-99a4-4f72-952e-7a46661c423d)
 ##
 
 <a name="41"></a>
