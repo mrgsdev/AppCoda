@@ -45,7 +45,7 @@
 - [x] [Chapter 39: Capturing Text within Image Using Live Text APIs](#39)
 - [x] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
 - [x] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
-- [ ] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
+- [x] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
 - [ ] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
 - [ ] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
 - [ ] [Chapter 45: Switching Layout with AnyLayout](#45)
@@ -263,6 +263,7 @@
 
 <a name="42"></a>
 # [Creating PDF Documents Using ImageRenderer](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2042)
+![Chapter 42](https://github.com/user-attachments/assets/dd437d08-7b09-451c-a593-c379fb43c2b7)
 ##
 
 <a name="43"></a>
