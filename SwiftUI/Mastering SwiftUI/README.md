@@ -44,7 +44,7 @@
 - [x] [Chapter 38: Creating Bar Charts and Line Charts with the Charts Framework](#38)
 - [x] [Chapter 39: Capturing Text within Image Using Live Text APIs](#39)
 - [x] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
-- [ ] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
+- [x] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
 - [ ] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
 - [ ] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
 - [ ] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
@@ -258,6 +258,7 @@
 
 <a name="41"></a>
 # [Using ImageRenderer to Convert SwiftUI Views into Images](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2041)
+![Chapter 41](https://github.com/user-attachments/assets/f90709fb-994e-4af3-8ec3-24c98c6dd3eb)
 ##
 
 <a name="42"></a>
