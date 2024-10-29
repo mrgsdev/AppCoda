@@ -46,7 +46,7 @@
 - [x] [Chapter 40: How to Use ShareLink for Sharing Data Like Text and Photos](#40)
 - [x] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
 - [x] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
-- [ ] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
+- [x] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
 - [ ] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
 - [ ] [Chapter 45: Switching Layout with AnyLayout](#45)
 - [ ] [Chapter 46: Working with Maps and Annotations](#46)
@@ -268,6 +268,7 @@
 
 <a name="43"></a>
 # [Using Gauge to Display Progress and Create a Speedometer](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2043)
+![Chapter 43](https://github.com/user-attachments/assets/9b9a9d86-774c-4e61-80fe-b6d5444727a0)
 ##
 
 <a name="44"></a>
