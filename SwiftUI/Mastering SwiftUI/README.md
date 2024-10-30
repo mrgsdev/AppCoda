@@ -47,7 +47,7 @@
 - [x] [Chapter 41: Using ImageRenderer to Convert SwiftUI Views into Images](#41)
 - [x] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
 - [x] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
-- [ ] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
+- [x] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
 - [ ] [Chapter 45: Switching Layout with AnyLayout](#45)
 - [ ] [Chapter 46: Working with Maps and Annotations](#46)
 - [ ] [Chapter 47: Working with Preview Macro](#47)
@@ -273,6 +273,7 @@
 
 <a name="44"></a>
 # [Creating Grid Layout Using Grid APIs](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2044)
+![Chapter 44](https://github.com/user-attachments/assets/e0cc5d76-6efe-4ff2-aedb-a27923ce8190)
 ##
 
 <a name="45"></a>
