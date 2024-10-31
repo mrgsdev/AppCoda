@@ -48,7 +48,7 @@
 - [x] [Chapter 42: Creating PDF Documents Using ImageRenderer](#42)
 - [x] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
 - [x] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
-- [ ] [Chapter 45: Switching Layout with AnyLayout](#45)
+- [x] [Chapter 45: Switching Layout with AnyLayout](#45)
 - [ ] [Chapter 46: Working with Maps and Annotations](#46)
 - [ ] [Chapter 47: Working with Preview Macro](#47)
 - [ ] [Chapter 48: Building Pie Charts and Donut Charts](#48)
@@ -278,6 +278,7 @@
 
 <a name="45"></a>
 # [Switching Layout with AnyLayout](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2045)
+![Chapter 45](https://github.com/user-attachments/assets/e2233583-8e9c-41ed-98e5-a3a717869431)
 ##
 
 <a name="46"></a>
