@@ -49,7 +49,7 @@
 - [x] [Chapter 43: Using Gauge to Display Progress and Create a Speedometer](#43)
 - [x] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
 - [x] [Chapter 45: Switching Layout with AnyLayout](#45)
-- [ ] [Chapter 46: Working with Maps and Annotations](#46)
+- [x] [Chapter 46: Working with Maps and Annotations](#46)
 - [ ] [Chapter 47: Working with Preview Macro](#47)
 - [ ] [Chapter 48: Building Pie Charts and Donut Charts](#48)
 - [ ] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
@@ -283,6 +283,7 @@
 
 <a name="46"></a>
 # [Working with Maps and Annotations](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2046)
+![Chapter 46](https://github.com/user-attachments/assets/e174fdde-0c82-4844-afbf-230c62eb40e0)
 ##
 
 <a name="47"></a>
