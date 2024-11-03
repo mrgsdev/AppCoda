@@ -50,7 +50,7 @@
 - [x] [Chapter 44: Creating Grid Layout Using Grid APIs](#44)
 - [x] [Chapter 45: Switching Layout with AnyLayout](#45)
 - [x] [Chapter 46: Working with Maps and Annotations](#46)
-- [ ] [Chapter 47: Working with Preview Macro](#47)
+- [x] [Chapter 47: Working with Preview Macro](#47)
 - [ ] [Chapter 48: Building Pie Charts and Donut Charts](#48)
 - [ ] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
 - [ ] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
