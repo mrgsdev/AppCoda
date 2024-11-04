@@ -51,7 +51,7 @@
 - [x] [Chapter 45: Switching Layout with AnyLayout](#45)
 - [x] [Chapter 46: Working with Maps and Annotations](#46)
 - [x] [Chapter 47: Working with Preview Macro](#47)
-- [ ] [Chapter 48: Building Pie Charts and Donut Charts](#48)
+- [x] [Chapter 48: Building Pie Charts and Donut Charts](#48)
 - [ ] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
 - [ ] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
 - [ ] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
@@ -292,6 +292,7 @@
 
 <a name="48"></a>
 # [Building Pie Charts and Donut Charts](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2048)
+![Chapter 48](https://github.com/user-attachments/assets/09a68dd2-1836-410f-bd10-9ded9567707c)
 ##
 
 <a name="49"></a>
