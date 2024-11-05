@@ -52,7 +52,7 @@
 - [x] [Chapter 46: Working with Maps and Annotations](#46)
 - [x] [Chapter 47: Working with Preview Macro](#47)
 - [x] [Chapter 48: Building Pie Charts and Donut Charts](#48)
-- [ ] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
+- [x] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
 - [ ] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
 - [ ] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
 - [ ] [Chapter 52: Getting Started with SwiftData](#52)
@@ -297,6 +297,7 @@
 
 <a name="49"></a>
 # [Detecting scroll positions in ScrollView with SwiftUI](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2049)
+![Chapter 49](https://github.com/user-attachments/assets/cc545999-be5c-4a82-85fb-6c74d4a20641)
 ##
 
 <a name="50"></a>
