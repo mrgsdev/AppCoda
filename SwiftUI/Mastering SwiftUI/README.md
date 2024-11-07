@@ -53,7 +53,7 @@
 - [x] [Chapter 47: Working with Preview Macro](#47)
 - [x] [Chapter 48: Building Pie Charts and Donut Charts](#48)
 - [x] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
-- [ ] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
+- [x] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
 - [ ] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
 - [ ] [Chapter 52: Getting Started with SwiftData](#52)
 - [ ] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
@@ -302,6 +302,7 @@
 
 <a name="50"></a>
 # [Animating Scroll View Using SwiftUI](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2050)
+![Chapter 50](https://github.com/user-attachments/assets/1fb599d0-e19d-4523-9e0a-d1e1e2421efe)
 ##
 
 <a name="51"></a>
