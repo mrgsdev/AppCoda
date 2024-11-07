@@ -54,7 +54,7 @@
 - [x] [Chapter 48: Building Pie Charts and Donut Charts](#48)
 - [x] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
 - [x] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
-- [ ] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
+- [x] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
 - [ ] [Chapter 52: Getting Started with SwiftData](#52)
 - [ ] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
 - [ ] [Chapter 54: Using PhaseAnimator to Create Dynamic Multi-Step Animations](#54)
@@ -307,6 +307,7 @@
 
 <a name="51"></a>
 # [Using UnevenRoundedRectangle to Round Specific Corners](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2051)
+![Chapter 51](https://github.com/user-attachments/assets/8bde6df4-ad7c-4652-bef8-d8ebff68dff1)
 ##
 
 <a name="52"></a>
