@@ -55,7 +55,7 @@
 - [x] [Chapter 49: Detecting scroll positions in ScrollView with SwiftUI](#49)
 - [x] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
 - [x] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
-- [ ] [Chapter 52: Getting Started with SwiftData](#52)
+- [x] [Chapter 52: Getting Started with SwiftData](#52)
 - [ ] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
 - [ ] [Chapter 54: Using PhaseAnimator to Create Dynamic Multi-Step Animations](#54)
 - [ ] [Chapter 55: Creating Advanced Animations with KeyframeAnimator](#55)
@@ -312,6 +312,7 @@
 
 <a name="52"></a>
 # [Getting Started with SwiftData](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2052)
+![Chapter 52](https://github.com/user-attachments/assets/36f0c98a-88fd-4c9f-ad16-e356bbd770a7)
 ##
 
 <a name="53"></a>
