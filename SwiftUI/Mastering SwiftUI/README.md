@@ -56,7 +56,7 @@
 - [x] [Chapter 50: Animating Scroll View Using SwiftUI](#50)
 - [x] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
 - [x] [Chapter 52: Getting Started with SwiftData](#52)
-- [ ] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
+- [x] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
 - [ ] [Chapter 54: Using PhaseAnimator to Create Dynamic Multi-Step Animations](#54)
 - [ ] [Chapter 55: Creating Advanced Animations with KeyframeAnimator](#55)
 - [ ] [Chapter 56: Using TipKit to Display Tooltips](#56)
@@ -317,6 +317,7 @@
 
 <a name="53"></a>
 # [How to Embed Photo Pickers in iOS Apps](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2053)
+![Chapter 53](https://github.com/user-attachments/assets/9bc73a15-56d6-4cfd-8b9c-63b0fd28d0a1)
 ##
 
 <a name="54"></a>
