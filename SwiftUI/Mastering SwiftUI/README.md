@@ -58,7 +58,7 @@
 - [x] [Chapter 52: Getting Started with SwiftData](#52)
 - [x] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
 - [x] [Chapter 54: Using PhaseAnimator to Create Dynamic Multi-Step Animations](#54)
-- [ ] [Chapter 55: Creating Advanced Animations with KeyframeAnimator](#55)
+- [x] [Chapter 55: Creating Advanced Animations with KeyframeAnimator](#55)
 - [ ] [Chapter 56: Using TipKit to Display Tooltips](#56)
 
 <a name="1"></a>
@@ -327,6 +327,7 @@
 
 <a name="55"></a>
 # [Creating Advanced Animations with KeyframeAnimator](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2055)
+![Chapter 55](https://github.com/user-attachments/assets/95f1ac5c-2527-4910-b2a7-a753527fbc65)
 ##
 
 <a name="56"></a>
