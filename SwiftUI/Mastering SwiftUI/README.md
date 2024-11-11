@@ -57,7 +57,7 @@
 - [x] [Chapter 51: Using UnevenRoundedRectangle to Round Specific Corners](#51)
 - [x] [Chapter 52: Getting Started with SwiftData](#52)
 - [x] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
-- [ ] [Chapter 54: Using PhaseAnimator to Create Dynamic Multi-Step Animations](#54)
+- [x] [Chapter 54: Using PhaseAnimator to Create Dynamic Multi-Step Animations](#54)
 - [ ] [Chapter 55: Creating Advanced Animations with KeyframeAnimator](#55)
 - [ ] [Chapter 56: Using TipKit to Display Tooltips](#56)
 
@@ -322,6 +322,7 @@
 
 <a name="54"></a>
 # [Using PhaseAnimator to Create Dynamic Multi-Step Animations](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2054)
+![Chapter 54](https://github.com/user-attachments/assets/1c0b4517-f680-4d42-a4c3-8e88938bb362)
 ##
 
 <a name="55"></a>
