@@ -59,7 +59,7 @@
 - [x] [Chapter 53: How to Embed Photo Pickers in iOS Apps](#53)
 - [x] [Chapter 54: Using PhaseAnimator to Create Dynamic Multi-Step Animations](#54)
 - [x] [Chapter 55: Creating Advanced Animations with KeyframeAnimator](#55)
-- [ ] [Chapter 56: Using TipKit to Display Tooltips](#56)
+- [x] [Chapter 56: Using TipKit to Display Tooltips](#56)
 
 <a name="1"></a>
 # [Introduction to SwiftUI](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2001)
@@ -332,5 +332,6 @@
 
 <a name="56"></a>
 # [Using TipKit to Display Tooltips](https://github.com/mrgsdev/AppCoda/tree/main/SwiftUI/Mastering%20SwiftUI/Chapter%2056)
+![Chapter 56](https://github.com/user-attachments/assets/648ccbd0-4955-4c35-88bd-279aa16eb1c0)
 ##
 
